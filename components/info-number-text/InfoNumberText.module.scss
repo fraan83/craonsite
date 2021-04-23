@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoNumber{
+    display:flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#2296d4;
+    font-size: 3.2rem;
+    letter-spacing: 0.22rem;
+    margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.infoText{ 
+    font-size: 1.1rem;
+    color: #696259;
+    padding: 0.2rem 0.4rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+} 

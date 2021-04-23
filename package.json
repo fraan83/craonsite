@@ -8,8 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
     "next": "^10.0.0",
+    "prop-types": "^15.7.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-elastic-carousel": "^0.11.5",
+    "react-hook-form": "^7.0.7",
+    "react-single-page-navigation": "^1.0.1",
+    "sass": "^1.32.8",
+    "styled-components": "^5.2.3"
   }
 }

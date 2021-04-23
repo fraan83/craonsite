@@ -1,0 +1,40 @@
+.section{ 
+  background: url(/bg_home_small.jpg) no-repeat center -3rem;
+  padding-top: 17rem;
+
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1366px;
+  flex-direction: column;
+  padding: 0rem 1rem;
+  box-sizing: border-box;
+}
+
+.pageElements{
+  display:flex;
+  width: 100%;  
+  max-width: 62rem;
+  padding-right:0.8rem;
+  justify-content: space-between; 
+}
+.defImage{
+  display:flex;
+  flex:1; 
+  justify-content: flex-end;
+  padding-right:0.8rem;
+  box-sizing: border-box;   
+}
+
+.text{
+  flex: 1;
+  padding-left: 0.8rem;
+  box-sizing: border-box;
+  color: #696259;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6rem;
+}
