@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from "react";
 import classes from "../styles/AssistenzaPage.module.scss" 
 import Title from "components/title/Title";
-import Menu from "components/Menu/Menu"
+import Menu from "components/menu/Menu"
 import Image from 'next/image'
 import Footer from "components/footer/Footer" 
 

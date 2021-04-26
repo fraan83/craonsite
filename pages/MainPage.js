@@ -9,13 +9,13 @@ import ClientiSection from "components/sections/ClientiSection"
 import ContattiSection from "components/sections/ContattiSection"
 import CarriereSection from "components/sections/CarriereSection"
 import ChisiamoSection from "components/sections/ChisiamoSection"
-import Menu from "components/Menu/Menu"
+import Menu from "components/menu/Menu"
 import { useRouter } from 'next/router'
 
 const MainPage = () => {
     const marginMenu = -90;
     const router = useRouter();
-    console.log("QUERY",router.query.section);
+    console.log("QUERY",router.query.section); 
     
     return(
      <ScrollNavigation elements={{ sezHome: {}, servizi: {}, chisiamo: {}, clienti: {}, carriere: {} , contatti: {} }} >
