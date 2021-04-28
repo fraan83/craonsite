@@ -24,7 +24,7 @@ const MainPage = () => {
             <Menu  goToPage={(pagina) => goTo(pagina, "smooth", marginMenu)} goToPixel={(pos) => goTo(pos)} activeElement={activeElement} sezDefault={router.query.section} pagInterna={false}  />
 
             <section ref={refs.sezHome}  className={classes.section}>
-                <HomeSection /> 
+                <HomeSection  goToPage={(pagina) => goTo(pagina, "smooth", marginMenu)} /> 
             </section> 
             <section ref={refs.servizi}  className={classes.section}>
                 <ServiziSection /> 

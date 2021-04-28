@@ -22,22 +22,6 @@ const ChisiamoSection = () => {
             <strong>CRAON</strong> è un’azienda informatica e di sviluppo software nata nel 1998 grazie ad un team composto da professionisti del settore informatico, opera in ambito IT attraverso l'utilizzo di tecnologie innovative, soluzioni digital e metodologie di programmazione all'avanguardia.
             <br />
             <br />
-            <strong>Scopri i nostri servizi:</strong><br />
-
-            - Consulenza IT;<br />
-
-            - Db Managemet<br />
-
-            - Sviluppo software in diversi ambienti tecnologici;<br />
-
-            - Soluzioni chiavi in mano;
-            <br />
-            - Manutenzione, implementazione e monitoraggio di sistemi in esercizio;<br />
-
-            - Sviluppo IT
-            <br />
-            - Sicurezza informatica
-            <br />
             La coerenza delle scelte e l’acquisizione continua di competenze secondo processi decisionali snelli e veloci sono le semplici regole sulle quali si costruisce la competitività di CRAON attraverso:
             <br />
             - Selezione accurata di professionalità;
