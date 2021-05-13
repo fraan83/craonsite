@@ -1,0 +1,94 @@
+
+.menuContainer{
+    display: flex;
+    width:100%;
+    position:fixed;
+    top: 0px;
+    background: #fff;
+    height: 90px; 
+    border-bottom: 3px solid #2296d4;    
+    align-items: center;
+    justify-content: space-between;
+    z-index:9;
+    color:#696259;
+    -webkit-box-shadow: 0px 16px 32px -12px rgba(125,125,125,0.66); 
+    box-shadow: 0px 16px 32px -12px rgba(125,125,125,0.66);
+ }
+ .menuContainer > figure{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ }
+ .logoCraon{
+    margin-left:2rem;
+    padding-top: 0.15rem;
+    width: 8rem;
+}
+.logoCraon img{
+    animation: show 1.5s ease-in;
+}
+.logoCCA img{
+    width: 100%;
+    animation: show2 1.5s ease-in; 
+}
+
+@keyframes show{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes show2{
+    0% {opacity:0;}
+    20% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.boxRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+
+}
+.logoCCA{
+    margin-right:2rem;
+    width: 12rem;
+}
+.social{
+    display:flex;
+    padding-right: 2rem;
+}
+.social li{
+    list-style-type: none;
+    padding: 0rem 0.4rem;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.social li:hover{    opacity: 1; }
+
+ .navigation{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    justify-content: center;
+ }
+
+.link{
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    padding:0 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.09rem;
+    font-weight: 400;
+    transition: all 0.26s linear;
+    user-select: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif!important;
+}
+.linkActive, .link:hover{
+    background:#2296d4;
+    color:#fff;
+  
+}

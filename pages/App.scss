@@ -1,0 +1,175 @@
+@import "normalize.css";
+
+/* GENERAL STYLES */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  color:#696259;
+}
+
+.section{
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 2rem;
+  flex-direction: column;
+}
+
+
+.titleSection{
+  display:flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color:#2296d4;
+  font-size: 3.8rem;
+  letter-spacing: 0.22rem;
+}
+.subtitle {
+  color: #56524c;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4rem;
+  letter-spacing: 0.02rem;
+}
+
+.internaContainer{ 
+  width:100%;
+}
+
+
+.internaContainer .section{
+  margin-top: 75px;
+  min-height: 65vh;
+  padding-bottom: 4.5rem;
+}
+
+
+
+*::selection {
+  background-color: #04bbce;
+  color: white;
+}
+.button, .smallButton {
+  background: #2296d4;
+  color: #fff;
+  border: 1px solid #2296d4;
+  padding: 0.7rem 1rem;
+  align-self: flex-start;
+  margin: 0 auto;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  letter-spacing: 0.14rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  user-select: none;
+}
+.button {
+  padding: 1rem;
+
+}
+
+.button:hover, .smallButton:hover {
+  background: #fff;
+  color: #2296d4;
+  transition: all 0.35s ease;
+}
+
+.footerButton svg { 
+   margin-right: 0.4rem;
+  opacity: 0.8;
+}
+
+.footerButton {
+  border: 1px solid #969189;
+  padding: 0.4rem 0.6rem;
+  align-self: flex-start;
+  align-items: center;
+  display: flex;
+  margin: 0.6rem 0rem 0rem;
+  color: #696259;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  font-size: 0.78rem; 
+  letter-spacing: 0.14rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  opacity: 0.8;
+  user-select: none;
+}
+.footerButton:hover {
+  border: 1px solid #2296d4;
+  color: #2296d4;
+}
+
+//TEXTIELD  STYLES
+div.textField{
+  margin-bottom: 0.6rem;
+}
+.textField .MuiOutlinedInput-notchedOutline{
+  border: 1px solid #2296d4;
+}
+
+.textField .MuiOutlinedInput-root{
+  color: #57514a; 
+}
+.textField .Mui-focused{
+  border: 0px !important;
+  outline:none !important;
+}
+.textField .MuiFormLabel-root.Mui-focused {
+  color: #2296d4 !important;
+}
+.textField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #2296d4 !important;
+}
+.textField .MuiFormLabel-root.Mui-error{
+  color: #999; 
+}
+
+.msgerror{
+  padding: 1rem;
+  color: #f44336;
+  width: 100%;
+  text-align: center;
+}
+
+
+.barGrey{
+  display: flex;
+  width: 100%;
+  background: rgba(245,242,238,1);
+  min-height: 11rem;
+  padding-bottom: 0.5rem;
+}
+
+
+//CAROUSEL
+
+button.rec-arrow{ display:none; }
+
+button.rec-dot, button.rec-dot:hover, button.rec-dot:focus{
+  box-shadow: 0 0 1px 3px rgb(34 150 212);
+  margin: 3rem 0.8rem;  
+}
+button.rec-dot:hover{  opacity:0.75; }
+
+
+button.rec-dot_active{
+  background-color: #2296d4;
+  box-shadow: 0 0 1px 3px rgb(34 150 212);
+}

@@ -1,0 +1,61 @@
+
+.sectionImg{
+    background:  rgb(24,62,82);
+    background-image: url(/circuiti.png); 
+    background-image: url(/circuiti.png),  linear-gradient(90deg, rgba(24,62,82,1) 0%, rgba(21,103,147,1) 45%, rgba(32,150,212,1) 100%);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: top right;
+    position: relative;
+    height: 12vh;
+    min-width: 100%;
+  }
+
+  .headerTitle{
+    position: absolute;
+    top: calc(1vh + 1vw);
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #82c2e4;
+    font-size: calc(1.2vw + 1vh);
+    letter-spacing: 0.22rem;
+  }
+
+  .headerSubtitle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    font-size: calc(0.7vw + 0.7vh);
+    color: #81cae8;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.8rem;
+    letter-spacing: 0.02rem;
+    position: absolute;
+    top: calc(3vh + 2vw);
+
+  }
+
+
+  @media screen  and (min-width: 280px) and (max-width: 867px ){
+    .sectionImg{
+      background:  rgb(24,62,82);
+      background-image: url(/circuiti.png); 
+      background-image: url(/circuiti.png),  linear-gradient(90deg, rgba(24,62,82,1) 0%, rgba(21,103,147,1) 45%, rgba(32,150,212,1) 100%);
+      background-repeat: no-repeat;
+      background-size: 40%;
+      background-position: top right;
+      position: relative;
+      height: 10vh;
+      min-width: 100%;
+    }
+  
+  }

@@ -1,0 +1,40 @@
+.container {
+  width:100%;
+  height: 939px;
+  background: #ffffff;  
+  display:flex;
+  font-family: 'Poppins', sans-serif;
+  color:#fff;
+  justify-content: center;
+}
+.bgcontainer {
+  width: 100%;
+  height: 770px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff url(/bg_carriere3.png) no-repeat top right;
+ 
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1366px;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    box-sizing: border-box;
+}
+.content > h2{  margin-bottom: 2rem; }
+.content > div button[class="button"]{
+  padding: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+  width: 7rem;
+}
+
+.text{   margin: 1rem 0rem 6.4rem 0rem;  }
+
+

@@ -1,0 +1,36 @@
+.container {
+    width:16rem;
+    height: 20.5rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    border: 1px solid #e0d9d1;
+}
+
+// .container:hover{  opacity: 0.9; }
+
+.content{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 0.6rem;
+}
+
+.title{
+    font-size: 0.92rem;
+    color:#696259;
+    font-weight:700;
+    background: #f8f5f2;
+    margin: 0px;
+    padding: 0.4rem;
+    box-sizing: border-box;
+}
+
+.text{ 
+  font-size: 0.82rem;
+  padding: 0.2rem 0.4rem;
+  box-sizing: border-box;
+  margin: 0.4rem 0rem;
+  line-height: 1.1rem;
+  letter-spacing: 0.03rem;
+} 

@@ -1,0 +1,75 @@
+.section{  
+  
+  padding-top: 0rem;
+ 
+
+}
+
+ 
+ 
+.content{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1366px;
+  flex-direction: column;
+  padding: 0rem 1rem;
+  box-sizing: border-box;
+  position: relative;
+  top: 2rem;
+}
+
+.pageElements{
+  display:flex;
+  width: 100%;  
+  max-width: 72rem;
+  padding-right:0.8rem;
+  justify-content: space-between; 
+ 
+  flex-direction: row;
+  top: 2rem;
+}
+
+.defImage{
+  display:flex;
+ 
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right:0.8rem;
+  box-sizing: border-box;   
+}
+
+.text{
+  flex: 1 1 100%;
+  padding-left: 0.8rem;
+  box-sizing: border-box;
+  color: #696259;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6rem;
+}
+
+
+.titleContact{
+  text-align: left;
+  text-transform: uppercase;
+  font-size: calc(1vh + 1vw);
+  font-weight: bold;
+  color: #2096d4;
+  /* border-bottom: 2px solid; */
+  padding-bottom: 1vh;
+}
+ 
+.textContact{
+  display: flex;
+  padding: 0.5rem;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: calc(2vh + 2vw);
+}
+
+.textRemote{
+  display: block;
+  padding: 0.5rem;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: calc(2vh + 2vw);
+}
