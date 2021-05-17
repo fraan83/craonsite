@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from "react";
-import classes from "../styles/Servizi.module.scss" 
+import classes from "styles/Servizi.module.scss" 
 import Title from "components/title/Title";
 import Menu from "components/menu/Menu";
 import Image from 'next/image';

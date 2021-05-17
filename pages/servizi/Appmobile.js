@@ -1,29 +1,29 @@
 import Link from 'next/link'
 import React from "react";
-import classes from "../styles/Servizi.module.scss" 
+import classes from "styles/Servizi.module.scss";
 import Title from "components/title/Title";
 import Menu from "components/menu/Menu";
 import Image from 'next/image';
 import Footer from "components/footer/Footer";
 import HeaderPaginaInterna from 'components/header-pagina-interna/header-pagina-interna';
 
-const Servizi_Enterprise = () => {
+const Servizi_Appmobile = () => {
   const handler = () => {
     alert("clicked");
   };
 
   return ( 
-      <div  className="internaContainer" >
+      <div className="internaContainer" >
         <Menu  activeElement={"servizi"}  pagInterna={true}  />
-        <Link href={{ pathname: '/', query: { section: 'chisiamo' } }}><a>path</a></Link>
+        <Link href={{ pathname: '/', query: { section: 'servizi' } }}><a>path</a></Link>
         <section  className={`section ${classes.section} `} >  
-        <HeaderPaginaInterna title="Enterprise Resource Planning "
-          subtitle="Sottotitolo Enterprise Resource Planning." />
+        <HeaderPaginaInterna title="App Mobile"
+          subtitle="Sottotitolo App Mobile." />
         <div className={classes.content}>
-        
+
           <div className={classes.pageElements}> 
               <div className={classes.defImage}>
-                  <Image src="/servizi/erp.jpg"  width={450} height={319}  alt="image" />
+                  <Image src="/servizi/app_mobile.jpg"  width={450} height={319}  alt="image" />
               </div> 
               <div className={classes.text}> 
                 <strong>Curabitur arcu erat</strong>, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Vestibulum</strong> ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. 
@@ -39,4 +39,4 @@ const Servizi_Enterprise = () => {
   );
 };
 
-export default Servizi_Enterprise;
+export default Servizi_Appmobile;

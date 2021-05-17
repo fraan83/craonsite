@@ -1,5 +1,12 @@
 .sectionServizi {
   padding-bottom: 0px;
+  background: url(/bg_section_1.svg) no-repeat center top;;
+  background-attachment: scroll;
+  background-origin: border-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .container {
     width:100%;
@@ -10,6 +17,7 @@
     color:#fff;
     justify-content: center;
     align-items: center;
+    
   }
   .content{
     display: flex;
@@ -20,6 +28,7 @@
     flex-direction: column;
     padding: 0rem 1rem;
     box-sizing: border-box;
+
 }
 .cardGrid{
   display:flex;
@@ -36,3 +45,18 @@
 }
 
 
+.titleSection {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2296d4;
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  letter-spacing: -0.22rem;
+}

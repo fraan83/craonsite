@@ -11,9 +11,9 @@ const ChisiamoSection = () => {
   };
 
   return ( 
-    <div  className={`section ${classes.container}`} >
+    <div  className={`section ${classes.container, classes.chisiamoSection}`} >
       <div className={classes.content}>
-        <Title text="Chi Siamo" />
+        <Title text="La nostra Azienda" />
         <div className={classes.pageElements}> 
             <div className={classes.chisiamoImage}>
                 <img src="/chisiamo.jpg"  alt="image"  />
@@ -36,10 +36,10 @@ const ChisiamoSection = () => {
       </div>
       <div className={classes.bottomInfo}>
           <div className={classes.content}>
-              <InfoNumberText number="23" text="anni di esperienza" />
-              <InfoNumberText number="+100.000" text="giornate di consulenza" />
-              <InfoNumberText number="+10.000" text="corsi di formazione interna" />
-              <InfoNumberText number="93%" text="customer fidelity" /> 
+              <InfoNumberText  number="23" text="anni di esperienza" />
+              <InfoNumberText  number="+100.000" text="giornate di consulenza" />
+              <InfoNumberText  number="+10.000" text="corsi di formazione interna" />
+              <InfoNumberText  number="93%" text="customer fidelity" /> 
           </div>
        </div>
         {/* <div className={classes.gradient}>              

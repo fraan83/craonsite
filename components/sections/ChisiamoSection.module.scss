@@ -1,3 +1,14 @@
+.chisiamoSection{
+  padding-bottom: 0px;
+  background: url(/bg_section_2.svg) no-repeat center top;;
+  background-attachment: scroll;
+  background-origin: border-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .container {
     width:100%;
     display:flex;
@@ -17,8 +28,9 @@
     width: 100%;
     max-width: 1366px;
     flex-direction: column;
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
     box-sizing: border-box;
+ 
 }
 .pageElements{
   display:flex;
@@ -39,16 +51,21 @@
 .chisiamoImage img{
   max-width: 100%;
   align-self: flex-start;
+  border-radius: 6px;
+  border: 1px solid white;
 }
 
 
 .text{
-  flex: 1;
+  flex: 1 1;
   padding-left: 0.8rem;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: #696259;
+  color: #fff;
   font-family: "Lato", sans-serif;
-  line-height: 1.6rem;
+  line-height: calc(1.2vh + 1vw);
+  font-size: calc(0.8vh + 0.8vw);
+  font-weight: 300;
 }
 
 .bottomInfo{
@@ -56,7 +73,7 @@
   align-items: center;
   justify-content: center; 
   width: 100%;
-  background: rgba(245,242,238,1);
+  /*background: rgba(245,242,238,1);*/
   min-height: 11rem;
   margin-top: 3.5rem;
   padding-bottom: 0.5rem;
@@ -66,6 +83,7 @@
   flex-direction: row;
   justify-content: space-between;
   max-width: 1000px;
+
 }
 
 .gradient{
