@@ -70,6 +70,7 @@ const ServiziSection = (sezDefault) => {
                         </CardServizi>
                     </div>
                 </div>
+                <div className="bartrasparent"></div>
             </div> 
      
         </div>
