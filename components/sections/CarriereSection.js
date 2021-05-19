@@ -1,106 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
 import classes from "./CarriereSection.module.scss";
 import Title from "components/title/Title";
 import Carousel, { consts } from "react-elastic-carousel";
 import Image from "next/image";
 import CarrieraCard from "components/card-carriera/Card";
 
+
+
+
 const CarriereSection = () => {
+
+  var scriptAllibo = '<div id="AlliboList">' +
+    '<a href="https://www.allibo.com?src=joblist" style="cursor:default" rel="follow" target="_blank">' +
+    '<img src="https://joblink.allibo.com/ats4/www_lib/load.gif" style="border:none" alt="" />' +
+    '</a>' +
+    '</div>' +
+    '<script src="https://joblink.allibo.com/ats4/connector.aspx?DM=1395&DMN=7uJ2s.7Q53mWs.SgA85T&SG=2&FT=22&LN=IT"></script>';
   const handler = () => {
     alert("clicked");
   };
 
+
   return (
     <div className={`section ${classes.container}`}>
-              <Title text="Area Carriere" />
-    <div className={classes.bgcontainer}>
+      <Title text="Area Carriere" />
+      <div className={classes.bgcontainer}>
         <div className={classes.content}>
-  
-          <Carousel itemsToShow={4}  enableAutoPlay autoPlaySpeed={3750}>
-          <CarrieraCard
-              title="Senior front end developer"
-              location="Veduggio con colzano"
-              data="04/03/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-          <CarrieraCard
-              title="Senior developer Angular"
-              location="Vimercate"
-              data="10/05/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-          <CarrieraCard
-              title="Full stack developer"
-              location="Rancate"
-              data="09/04/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-           <CarrieraCard
-              title="Back end Junior Developer"
-              location="Milano"
-              data="15/04/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-            <CarrieraCard
-              title="Junior project manager"
-              location="Rancate"
-              data="09/04/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-          <CarrieraCard
-              title="Google marketing manager"
-              location="Sesto San Giovanni"
-              data="22/01/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-           <CarrieraCard
-              title="Senior front end developer"
-              location="Veduggio con colzano"
-              data="04/03/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-          <CarrieraCard
-              title="Senior developer Angular"
-              location="Vimercate"
-              data="10/05/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-          <CarrieraCard
-              title="Full stack developer"
-              location="Rancate"
-              data="09/04/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-          <CarrieraCard
-              title="Google marketing manager"
-              location="Sesto San Giovanni"
-              data="22/01/2021"
-              showButton={true}
-              buttonText="vedi"
-              onClick={handler}
-            />
-          </Carousel>
+          <div dangerouslySetInnerHTML={{ __html: scriptAllibo }}></div>
         </div>
-    </div>
-
+      </div>
     </div>
   );
 };

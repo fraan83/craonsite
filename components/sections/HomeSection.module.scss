@@ -19,22 +19,26 @@
 
 .textContainer{
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
-  align-content: space-around;
+  align-content: space-between;
   width: 100%;
   max-width: 1340px;
-  padding-right: 1vw;
+  padding-left: 1vw;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   top: -15vh;
+  left: 2vw;
+  color: #fff;
+
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    background: url(/bagliore.png) no-repeat center right;
+    //background: url(/bagliore.png) no-repeat center right;
+ 
     max-width: 520px;
     height: 312px;
     justify-content: center;
@@ -57,7 +61,8 @@
 .payoffText{ 
     text-transform: uppercase;
     font-weight:500;
-    font-size: 1.5rem;
+    font-size: calc(0.6vw + 0.6vh);
+    line-height: calc(0.8vw + 0.8vh);
     margin-top: 0rem;
     // text-shadow: -5px 0px 13px #2296d4;
 
@@ -86,7 +91,9 @@
     align-content: space-between;
     align-items: flex-end;
     text-align: left;
- 
+    background-color: rgba(235, 235, 235, 0.199);
+    padding: 1rem;
+    border-radius: 6px;
 }
 .imgHome{
   max-width: 40%;
@@ -97,6 +104,22 @@
   right: 3vw;
   display: none;
 }
+
+.payoffB2b{
+  text-align: center;
+  color:#dadada;
+  display: block;
+  position: absolute;
+  left: 5vw;
+  bottom: 8vh;
+}
+.socialContainer{
+  display: flex;
+  position: absolute;
+  left:  5vw;
+  bottom: 15vh;
+}
+
 
 @media screen and (max-width: 800px){
   .imgHome{

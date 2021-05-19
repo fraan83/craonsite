@@ -38,6 +38,11 @@
     justify-content: flex-end;
     padding-right:0.8rem;
     box-sizing: border-box;   
+ 
+  }
+
+  .defImage img{
+    border-radius: 6px;
   }
   
   .text{
@@ -72,4 +77,74 @@
     padding: 0.5rem;
     border-bottom: 1px solid lightgray;
     margin-bottom: calc(2vh + 2vw);
+  }
+
+
+
+
+  /* B2B SYSTEM INTEGRATION PAGE */
+
+
+  .headrb2b h1{
+    color: #2096d4;
+  }
+
+
+  .contentb2b {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+
+
+  .columnb2b{
+    padding: 0.8rem;
+  }
+  
+  .columnb2b:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 1;
+    border-left: 2px solid #2096d4;
+  }
+  
+  .columnb2b:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 2;
+    border-left: 2px solid #2096d4;
+  }
+  
+  .columnb2b:nth-child(3) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 3;
+    border-left: 2px solid #2096d4;
+  }
+  
+  .columnb2b:nth-child(4) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 4;
+    border-left: 2px solid #2096d4;
+  }
+
+
+  .bottomB2b{
+    margin: 2rem;
   }

@@ -160,7 +160,7 @@ div.textField{
   display: flex;
   width: 100%;
   min-height: 12vh;
-  padding-bottom: 0.5rem;
+ 
 }
 
 //CAROUSEL
@@ -177,4 +177,68 @@ button.rec-dot:hover{  opacity:0.75; }
 button.rec-dot_active{
   background-color: #2296d4;
   box-shadow: 0 0 1px 3px rgb(34 150 212);
+}
+
+
+
+//ALLIBO
+
+div#AlliboList{
+  display: flex!important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1;
+}
+ 
+.AHRP_head p{
+  display: none!important;
+}
+
+.AHRP_adv{
+  display: block;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  color: #696259;
+  padding: 1rem;
+  margin: 0.2rem;
+
+}
+
+.AHRP_subj{
+  color: #2296d4;
+  font-size: calc(0.8vh + 0.8vw);
+}
+
+
+.AHRP_subj:hover{
+  color: #155f86;
+}
+
+.AHRP_adv:nth-child(-n+21){
+  display:none;
+}
+
+.AHRP_det{
+  display: block;
+  border-top: 1px solid lightgray;
+  padding: 1rem;
+  font-size: calc(0.6vh + 0.6vw);
+}
+
+
+
+.AHRP_self {
+  position: relative;
+  bottom: -20vh;
+  z-index: 10;
+  background-color: #2296d4 !important;
+  padding: 1rem;
+}
+
+.AHRP_self:hover {
+  background-color: #1c5c7e !important;
 }

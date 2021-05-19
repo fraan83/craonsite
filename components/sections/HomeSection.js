@@ -1,10 +1,15 @@
 import React from "react";
-import classes from "./HomeSection.module.scss"
-import Button from "components/buttons/Button"
+import classes from "./HomeSection.module.scss";
+import Button from "components/buttons/Button";
 import PropTypes from "prop-types";
+import B2Button from "components/buttons/B2Button";
+import { useRouter } from 'next/router';
+import SocialLinks from "components/social/socialLink";
 
 const HomeSection = ({ goToPage }) => {
+    const router = useRouter();
     return (
+
         <div className={classes.container}>
             <div className={classes.textContainer}>
                 <div className={classes.content}>
@@ -20,8 +25,13 @@ const HomeSection = ({ goToPage }) => {
 
 
             </div>
+            <div className={classes.socialContainer}>
+                <SocialLinks />
+            </div>
+            <div className={classes.payoffB2b}>
+                <B2Button text="E-commerce B2B" onClick={() => router.push('/servizi/B2B')} />
+            </div>
 
-            <img className={classes.imgHome} src="/app_dev.svg"></img>
         </div>
     );
 }

@@ -36,10 +36,10 @@ const ChisiamoSection = () => {
       </div>
       <div className={classes.bottomInfo}>
           <div className={classes.content}>
-              <InfoNumberText  number="23" text="anni di esperienza" />
-              <InfoNumberText  number="+100.000" text="giornate di consulenza" />
-              <InfoNumberText  number="+10.000" text="corsi di formazione interna" />
-              <InfoNumberText  number="93%" text="customer fidelity" /> 
+              <InfoNumberText plus="" number="23" percent="" text="anni di esperienza" />
+              <InfoNumberText plus="+"  number="100000"  percent="" text="giornate di consulenza" />
+              <InfoNumberText plus="+"  number="10000"  percent="" text="ore di formazione interna" />
+              <InfoNumberText plus=""  number="93"  percent="%" text="customer fidelity" /> 
           </div>
        </div>
         {/* <div className={classes.gradient}>              
