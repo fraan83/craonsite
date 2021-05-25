@@ -8,6 +8,9 @@ import Footer from "components/footer/Footer";
 import HeaderPaginaInterna from 'components/header-pagina-interna/header-pagina-interna';
 import Payoffb2b from 'components/b2b/Payoffb2b';
 import Head from 'next/head';
+
+import ServiziSection from 'components/sections/ServiziSection';
+
 const B2B = () => {
   const handler = () => {
     alert("clicked");
