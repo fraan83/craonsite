@@ -10,17 +10,14 @@ import CarrieraCard from "components/card-carriera/Card";
 
 const CarriereSection = () => {
 
-  var scriptAllibo = '<div id="AlliboList">' +
-    '<a href="https://www.allibo.com?src=joblist" style="cursor:default" rel="follow" target="_blank">' +
-    '<img src="https://joblink.allibo.com/ats4/www_lib/load.gif" style="border:none" alt="" />' +
-    '</a>' +
-    '</div>' +
-    '<script src="https://joblink.allibo.com/ats4/connector.aspx?DM=1395&DMN=7uJ2s.7Q53mWs.SgA85T&SG=2&FT=22&LN=IT"></script>';
+  var scriptAllibo = '<script src="https://joblink.allibo.com/ats4/Widget/jq"></script>'+
+                      '<script src="https://joblink.allibo.com/ats4/Widget/js"></script>'+
+                      '<a href="https://allibo.com" data-allibo="https://joblink.allibo.com/ats4/Widget/connector.aspx?DM=AkAgVVF3SaayKyCyStg6S9qATVXtJSr6vSo3gHErQrg%3D&SG=2&FT=481&LN=IT"rel="follow" style="text-decoration:none; cursor:default">-</a>';
+  
   const handler = () => {
     alert("clicked");
   };
-
-
+ 
   return (
     <div className={`section ${classes.container}`}>
       <Title text="Area Carriere" />

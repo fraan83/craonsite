@@ -13,24 +13,29 @@ const ChisiamoSection = () => {
   return ( 
     <div  className={`section ${classes.container, classes.chisiamoSection}`} >
       <div className={classes.content}>
-        <Title text="La nostra Azienda" />
+        <Title text="Chi Siamo" />
         <div className={classes.pageElements}> 
             <div className={classes.chisiamoImage}>
-                <img src="/chisiamo.jpg"  alt="image"  />
+                <img src="/chi-siamo.jpg"  alt="image"  />
             </div> 
             <div className={classes.text}>
-            <strong>CRAON</strong> è un’azienda informatica e di sviluppo software nata nel 1998 grazie ad un team composto da professionisti del settore informatico, opera in ambito IT attraverso l'utilizzo di tecnologie innovative, soluzioni digital e metodologie di programmazione all'avanguardia.
+            <strong>CRAON</strong> è un'azienda giovane, dinamica e positiva, che opera in ambito IT attraverso l'utilizzo di tecnologie innovative, soluzioni digital e metodologie di programmazione all'avanguardia.
             <br />
+             
+            Nata nel 1998 per iniziativa di un gruppo di professionisti del settore informatico, negli anni è cresciuta sia nel settore dello sviluppo di soluzioni <b> <i>tailor made</i> </b>per i propri clienti, sia nel campo della consulenza a 360°: programmazione e sviluppo sia lato Back End che lato Front End, gestione di infrastrutture sistemistiche, <b><i>problem solving</i></b>.
             <br />
-            La coerenza delle scelte e l’acquisizione continua di competenze secondo processi decisionali snelli e veloci sono le semplici regole sulle quali si costruisce la competitività di CRAON attraverso:
-            <br />
-            - Selezione accurata di professionalità;
-            <br />
-            - Partecipazioni societarie con strutture specializzate in aree di nicchia;
-            <br />
-            - Flessibilità rispetto alle esigenze dei clienti e del mercato;
-            <br /> <br />
-            Un'azienda giovane, dinamica e positiva in cui la crescita del business è il naturale corollario di uno stretto patto di collaborazione con i dipendenti e della condivisione responsabile degli obiettivi.
+            
+            Craon costruisce progressivamente la propria competitività sul mercato IT attraverso alcuni semplici <i>driver:</i>
+            <br></br>
+              <ul className={classes.clist}>
+                <li>Processi decisionali snelli e veloci;</li>
+                <li>Selezione accurata delle professionalità, accompagnata dalla condivisione responsabile degli obiettivi e da un patto di collaborazione e valorizzazione delle competenze del team;</li>
+                <li>Flessibilità rispetto alle esigenze dei clienti e del mercato;</li>
+                <li>Volontà di instaurare relazioni di lungo periodo con i clienti da un lato e con i membri della squadra dall’altro;</li>
+                <li>Ampliamento delle aree di business attraverso la partecipazione societaria con strutture specializzate in settori specifici.</li>
+              </ul>
+            <br />  
+            Queste caratteristiche fanno di Craon un partner ideale per accompagnare i clienti nella digitalizzazione della loro attività, e nella modernizzazione delle soluzioni di gestione dei processi di Information technology.
             </div>             
         </div> 
       </div>

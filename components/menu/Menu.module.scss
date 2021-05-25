@@ -18,6 +18,9 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
  }
  .logoCraon{
     margin-left:2rem;
@@ -28,10 +31,17 @@
     animation: show 1.5s ease-in;
 }
 .logoCCA img{
-    width: 100%;
+    width: 70%;
     animation: show2 1.5s ease-in; 
 }
-
+.logoB2B{
+    position: relative;
+    right: -2vw;
+}
+.logoB2B img{
+    width: 70%;
+    animation: show2 1.5s ease-in; 
+}
 @keyframes show{
     0% {opacity:0;}
     100% {opacity:1;}
@@ -91,4 +101,84 @@
     background:#2296d4;
     color:#fff;
   
+}
+
+
+.burger{
+    display: none;
+}
+.burger:nth-child(1){
+        
+    animation: show2 0.5s ease-in; 
+}
+.burger:nth-child(2){
+    animation: show2 0.5s ease-in; 
+}
+.burger:nth-child(3){
+    animation: show2 0.5s ease-in; 
+}
+
+.menuContainerMobile{
+    display: none;
+}
+.menuContainerMobile.open{
+    display: none;
+}
+@media screen and (max-width: 769px) and (orientation: portrait) {
+    .navigation {
+        display: none;
+
+    }
+
+    .burger{
+        display: block;
+        position: absolute;
+        right: 2vw;
+    }
+    .burger:hover{
+        cursor: pointer;
+    }
+
+    .burgerLine{
+        height: 5px;
+        width: 40px;
+        background-color: #2296d4;
+        margin: 0.3rem;
+        border-radius: 22px;
+       
+        
+    }
+
+    .burger:nth-child(1){
+        
+        animation: show2 0.5s ease-in; 
+    }
+    .burger:nth-child(2){
+        animation: show2 0.5s ease-in; 
+    }
+    .burger:nth-child(3){
+        animation: show2 0.5s ease-in; 
+    }
+
+    .menuContainerMobile{
+        display: none;
+    }
+    .menuContainerMobile.open{
+        display: none;
+    }
+    .logoCraon{
+        margin-left: 1rem;
+    }
+
+    .logoB2B img{
+        display: none;
+    }
+
+
+    .logoCCA img{
+        display: none;
+    }
+
+
+
 }

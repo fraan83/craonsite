@@ -6,7 +6,8 @@ import Menu from "components/menu/Menu";
 import Image from 'next/image';
 import Footer from "components/footer/Footer";
 import HeaderPaginaInterna from 'components/header-pagina-interna/header-pagina-interna';
-
+import Head from 'next/head';
+import ServiziSection from 'components/sections/ServiziSection';
 const Servizi_Appmobile = () => {
   const handler = () => {
     alert("clicked");
@@ -14,6 +15,34 @@ const Servizi_Appmobile = () => {
 
   return ( 
       <div className="internaContainer" >
+
+
+      <Head>
+        <title> Craon - App Mobile </title>
+        <link rel="icon" href="/favicon/favicon.ico" />
+            <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png"/>
+            <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png" />
+            <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png" />
+            <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png" />
+            <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png" />
+            <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png" />
+            <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png" />
+            <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png" />
+            <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+            <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+            <link rel="manifest" href="/favicon/manifest.json" />
+            <meta name="msapplication-TileColor" content="#ffffff" />
+            <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+            <meta name="theme-color" content="#ffffff"></meta>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />    
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+            <meta property="og:title" content="Craon Srl" key="title" />
+            <meta name="description" content="Craon Realizza App Mobile per la tua attività. Azienda sviluppo sistemi di integrazione app windoes unix/linux "/>
+      </Head>
         <Menu  activeElement={"servizi"}  pagInterna={true}  />
         <Link href={{ pathname: '/', query: { section: 'servizi' } }}><a>path</a></Link>
         <section  className={`section ${classes.section} `} >  
@@ -31,8 +60,11 @@ const Servizi_Appmobile = () => {
                 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero malesuada feugiat. Donec rutrum congue leo eget malesuada. Cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque.Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh.
               </div>             
           </div> 
+
           </div>
-        </section>
+          <ServiziSection />
+        </section> 
+
         <Footer   pagInterna={true} />
       </div>
     

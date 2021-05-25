@@ -44,7 +44,7 @@ const Footer = ({goToPage, pagInterna}) => {
                     20871 Vimercate (MB)<br /><br />
                     <strong>Partita Iva: </strong> 02820820963<br />
                     <strong>Tel: </strong> 039.6612489<br />
-                    <strong>Email: </strong><a href="mailto:craon@craon.it">informazioni@craon.it</a>
+                    <strong>Email: </strong><a href="mailto:info@craon.it">info@craon.it</a>
                 </p>
                 <ul className={classes.social}  >
                     <li  onClick={() => window.open('https://www.facebook.com/craonIT','','')} ><img src="/logo-fb-grey.png" /></li>

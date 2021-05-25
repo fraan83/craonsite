@@ -183,62 +183,118 @@ button.rec-dot_active{
 
 //ALLIBO
 
-div#AlliboList{
-  display: flex!important;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  flex: 1 1;
+.aw_jobSlider.cs .aw_intro /*Paragrafo di introduzione*/
+    {
+      position: relative;
+      top: 0px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: large;
+      max-width: 90vw;
+      letter-spacing: 0rem;
+      color: #696259;
+      margin: 1rem auto;
+      
+     }
+     .aw_jobSlider.cs .aw_vieport /*Paragrafo di introduzione*/
+    {
+      height: 400px;
+      text-align: center;
+     
+     }
+
+     .aw_jobPosting{
+       margin-left: 3rem;
+       padding: 0rem;
+     }
+.aw_jobSlider.cs .aw_jobPosting /*Contenitore dell'Annuncio*/
+    {
+     background-color: rgba(255, 255, 255, 0.842);
+      border-radius: 6px;
+      max-width: 250px;
+      height: 200px;
+      border: 1px solid rgb(201, 201, 201);
+      border-bottom: 1px solid grey;
+      margin-left: 0.9rem;
+      margin-right: 0.9rem;
+      padding: 0rem;
+     
+     }
+     .aw_jobSlider.cs .aw_jobPosting:hover /*Contenitore dell'Annuncio*/
+     {
+        background-color: #c0deee;
+        color: white!important;
+        font-weight: bold;
+     }  
+.aw_jobSlider.cs .aw_jobPosting .aw_title /*Titolo dell'Annuncio*/
+    {
+      color: #fff;
+      height: 50px;
+     
+      border-bottom: 2px solid rgb(187, 187, 187);
+      display: block;
+      background-image: url(/icone/craon_icon_tsr.png), linear-gradient(90deg, rgb(6, 78, 119) 0%, rgb(34, 150, 212, 1) 82%, rgb(34, 150, 212, 1) 100%);
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-origin: border-box;
+      background-size:calc(100% - 120px);
+      text-decoration: grey;
+      background-color:  rgb(34, 150, 212, 1);
+      padding: 1rem;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      position: relative;
+      top: 0px;
+      transition: all ease 0.3s;
+      mix-blend-mode: multiply;
+     }
+.aw_jobSlider.cs .aw_jobPosting .aw_location /*Sede di lavoro*/
+    {
+      display: flex;
+      border-top: grey;
+      color: #696259;
+      flex-direction: column;
+      align-content: space-between;
+      justify-content: flex-end;
+      align-items: center;
+      transition: all 0.3s;
+    
+     }
+     .aw_jobSlider.cs .aw_jobPosting .aw_location:hover /*Sede di lavoro*/
+    {
+   
+      color: #fff;
+    
+     }
+.aw_jobSlider.cs .aw_jobPosting .aw_pin /*Icona segnaposto Sede di lavoro*/
+    { }
+.aw_jobSlider.cs .aw_jobPosting:hover /*MouseOver effect Annuncio*/
+    { }
+.aw_jobSlider.cs .aw_dot /*Segnaposto delle Slide*/
+    {
+      color: #fff;
+      height: 20px;
+      width: 20px;
+      margin-left: 1rem;
+      border-radius: 20px;
+      background: linear-gradient(180deg, rgb(20, 132, 197) 0%, rgb(99, 162, 196) 82%, rgb(113, 160, 224) 100%);
+      border: 2px solid rgb(94, 134, 185);
+     }
+.aw_jobSlider.cs .aw_dot.is-selected /*Segnaposto Slide corrente*/
+    { 
+      background-color: #fff;
+    }
+.aw_rush{
+  display: block!important;
 }
- 
-.AHRP_head p{
-  display: none!important;
-}
 
-.AHRP_adv{
-  display: block;
-  background-color: #fff;
-  border: 1px solid lightgray;
-  border-radius: 6px;
-  color: #696259;
-  padding: 1rem;
-  margin: 0.2rem;
-
-}
-
-.AHRP_subj{
-  color: #2296d4;
-  font-size: calc(0.8vh + 0.8vw);
-}
-
-
-.AHRP_subj:hover{
-  color: #155f86;
-}
-
-.AHRP_adv:nth-child(-n+21){
-  display:none;
-}
-
-.AHRP_det{
-  display: block;
-  border-top: 1px solid lightgray;
-  padding: 1rem;
-  font-size: calc(0.6vh + 0.6vw);
-}
-
-
-
-.AHRP_self {
-  position: relative;
-  bottom: -20vh;
-  z-index: 10;
-  background-color: #2296d4 !important;
-  padding: 1rem;
-}
-
-.AHRP_self:hover {
-  background-color: #1c5c7e !important;
-}
+    .tzs_show-page-dots{
+      position: relative;
+      bottom: -10vh;
+      margin: 0 auto;
+    }

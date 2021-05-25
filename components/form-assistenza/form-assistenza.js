@@ -6,11 +6,12 @@ import TextField from '@material-ui/core/TextField';
 import Button from "components/buttons/Button";
 import { FormControlLabel, TextareaAutosize } from "@material-ui/core";
 import { CheckBox } from "@material-ui/icons";
+import Link from 'next/link';
 
 const FormAssistenza = ({ title, subtitle, icon }) => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => console.log(data);
-
+ 
     let msgerror = "Campo Obbligatorio";
 
     return (
@@ -100,8 +101,13 @@ const FormAssistenza = ({ title, subtitle, icon }) => {
                         <FormControlLabel
                             className={classes.chekTermini}
                             value="start"
-                            control={<CheckBox color="primary" />}
-                            label="*Ho letto i termini e le condizioni di utilizzo"
+                            control={<CheckBox color="primary" checked={false} />}
+                            label={
+                                <div>
+                                   <span> * Ho letto  </span>
+                                   <Link href={'/terminiecondizioni'}> la policy sulla privacy </Link>
+                                </div>
+                                }
                             labelPlacement="end"
                         />
                

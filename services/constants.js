@@ -1,1 +1,0 @@
-export const ALLIBO_CARRIERE_API = 'https://joblink.allibo.com/ats4/connector.aspx?DM=1395&DMN=7uJ2s.7Q53mWs.SgA85T&SG=2&FT=22&LN=IT';

@@ -14,7 +14,7 @@ const ServiziSection = (sezDefault) => {
     return( 
         <div   className={`section ${classes.sectionServizi} `} >           
             <div className={classes.content}>
-                <Title className={classes.titleSection} text="I Nostri Servizi" />
+                <h1 className={classes.titleSection}> Servizi </h1>
 
                 <div className={classes.cardGrid}>
                     <div className={classes.cardContainer}>
@@ -70,9 +70,9 @@ const ServiziSection = (sezDefault) => {
                         </CardServizi>
                     </div>
                 </div>
-                <div className="bartrasparent"></div>
+         
             </div> 
-     
+            <div className="barGrey"></div>
         </div>
     );
 }

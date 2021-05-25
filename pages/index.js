@@ -4,6 +4,9 @@ import Image from 'next/image'
 import MainPage from "pages/MainPage" 
 
 export default function Home() {
+
+ 
+
   return (
     <div className="siteContainer">
          <Head>
@@ -26,10 +29,15 @@ export default function Home() {
             <meta name="msapplication-TileColor" content="#ffffff" />
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
             <meta name="theme-color" content="#ffffff"></meta>
-
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />    
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-          
+            <meta property="og:title" content="Craon Srl" key="title" />
+            <meta name="description" content="Progettazione realizzazione gestione sistemi informativi. Digitalizzazione aziendale. B2B e-commerce. Business To Business. Integrazione sistemi. 
+             Assistenza sistemistica. Formazione digitale, Progettazzione sistemi informativi Consulenza informatica it solutions, Sviluppo app, sviluppo applicaizoni, corsi informatica, corso react, corso angular,
+             ricerca IT, ricerca informatica. Buy beautiful, responsive deisgn yourwebsite. Video corsi videocorsi online c# asp.net core 3.1 asp.net cire core
+             Craon è il partner giusto. sviluppo portali web sviluppo portale web per PMI piccole medie imprese. applicazioni per pmi. resoourcing. "/>
+             <script src="https://kit.fontawesome.com/f9028cf83e.js" crossorigin="anonymous"></script>
           </Head>
           <MainPage />
           {/* <h1 className="title">

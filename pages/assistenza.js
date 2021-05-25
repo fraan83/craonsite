@@ -42,7 +42,7 @@ const Assistenza = () => {
             <div className={classes.text}>
               <div className={classes.titleContact}> Contact Center</div>
               <div className={classes.textContact}>
-              <WhatsAppIcon />  +39 039.6612489
+              <WhatsAppIcon /> &nbsp;  <label>+39 039.6612489</label>
                   </div>
               <div className={classes.titleContact}> Supporto da remoto</div>
               <div className={classes.textRemote}>
