@@ -78,8 +78,11 @@
  .navigation{
     display: flex;
     height: 100%;
-    flex: 1;
-    justify-content: flex-end;
+    flex: 1 1;
+    justify-content: center;  
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
  }
 
 .link{
