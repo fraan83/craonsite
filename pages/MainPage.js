@@ -20,7 +20,7 @@ const MainPage = () => {
     const marginMenu = -90;
     const router = useRouter();
     useEffect(() => {
-        Aos.init({duration: 1000});
+        Aos.init({duration: 800});
     }, [])
 
    // console.log("QUERY",router.query.section); 

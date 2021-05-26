@@ -73,7 +73,7 @@ const Menu = ({ goToPage, goToPixel, activeElement, sezDefault, pagInterna }) =>
                             </Link>
                         </nav>
                     </div>
-                    <figure className={classes.logoB2B} onClick={() => window.open('http://www.codecampus.it/', '', '')} ><img src="/b2b-button.png" /></figure>
+                    <figure className={classes.logoB2B} onClick={() => window.open('http://www.codecampus.it/', '', '')} ><img src="/b2b-small.png" /></figure>
                     <figure className={classes.logoCCA} onClick={() => window.open('http://www.codecampus.it/', '', '')} ><img src="/logo-codecampus-scopri.png" /></figure>
                 </div>
             )
@@ -107,7 +107,7 @@ const Menu = ({ goToPage, goToPixel, activeElement, sezDefault, pagInterna }) =>
                             <div onClick={() => goToPage('contatti')} className={`${classes.link} ${(activeElement === 'contatti') ? classes.linkActive : ""}`}>CONTATTI</div>
                         </nav>
                     </div>
-                    <figure className={classes.logoB2B} onClick={() => window.open('http://www.codecampus.it/', '', '')} ><img src="/b2b-button.png" /></figure>
+                    <figure className={classes.logoB2B} onClick={() => window.open('http://www.codecampus.it/', '', '')} ><img src="/b2b-small.png" /></figure>
                     <figure className={classes.logoCCA} onClick={() => window.open('http://www.codecampus.it/', '', '')} ><img src="/logo-codecampus-scopri.png" /></figure>
                 </div>
 
