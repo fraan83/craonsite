@@ -20,13 +20,13 @@ const MainPage = () => {
     const marginMenu = -90;
     const router = useRouter();
     useEffect(() => {
-        Aos.init({duration: 800});
+        Aos.init({duration: 300});
     }, [])
 
    // console.log("QUERY",router.query.section); 
     
     return(
-
+            
         
      <ScrollNavigation elements={{ sezHome: {}, servizi: {}, chisiamo: {}, clienti: {}, carriere: {} , contatti: {} }} >
         {({ refs, activeElement, goTo }) => ( 
@@ -40,13 +40,13 @@ const MainPage = () => {
             <section  ref={refs.servizi}  className={classes.section}>
                 <ServiziSection /> 
             </section>
-            <section data-aos="fade-in" ref={refs.chisiamo}  className={classes.section}>
+            <section data-aos="fade-up" ref={refs.chisiamo}  className={classes.section}>
                 <ChisiamoSection />
             </section>
             <section ref={refs.clienti}  className={classes.section}>
                 <ClientiSection /> 
             </section>
-            <section data-aos="fade-in" ref={refs.carriere}  className={classes.section}>
+            <section data-aos="fade-up" ref={refs.carriere}  className={classes.section}>
                 <CarriereSection /> 
             </section>            
             <section ref={refs.contatti}  className={classes.section}>

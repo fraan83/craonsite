@@ -40,6 +40,7 @@ const Servizi_Database = () => {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <meta property="og:title" content="Craon Srl" key="title" />
         <meta name="description" content="Craon Database Management, sistemi SQL, SQL Server, MySQL, ORACLE, PL/SQL " />
+        <script src="https://kit.fontawesome.com/f9028cf83e.js" crossorigin="anonymous"></script>
       </Head>
       <Menu activeElement={"servizi"} pagInterna={true} />
       <Link href={{ pathname: '/', query: { section: 'chisiamo' } }}><a>path</a></Link>

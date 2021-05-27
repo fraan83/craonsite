@@ -4,8 +4,8 @@ import classes from "./form-assistenza.module.scss";
 import { useForm } from "react-hook-form";
 import TextField from '@material-ui/core/TextField';
 import Button from "components/buttons/Button";
-import { FormControlLabel, TextareaAutosize } from "@material-ui/core";
-import { CheckBox } from "@material-ui/icons";
+import { FormControlLabel, TextareaAutosize, Checkbox } from "@material-ui/core";
+ 
 import Link from 'next/link';
 
 const FormAssistenza = ({ title, subtitle, icon }) => {
@@ -98,18 +98,18 @@ const FormAssistenza = ({ title, subtitle, icon }) => {
                     <br></br>
                     {(!!errors.messaggio) && <div className="msgerror" >{msgerror}</div>}
                     <div className={classes.buttonArea}   >
-                        <FormControlLabel
-                            className={classes.chekTermini}
-                            value="start"
-                            control={<CheckBox color="primary" checked={false} />}
-                            label={
-                                <div>
-                                   <span> * Ho letto  </span>
-                                   <Link href={'/terminiecondizioni'}> la policy sulla privacy </Link>
-                                </div>
-                                }
-                            labelPlacement="end"
-                        />
+                    <FormControlLabel
+                        value="end"
+                        control={<Checkbox color="primary" />}
+                        label={
+                            <div>
+                               <span> * Ho letto  </span>
+                               <Link href={'/terminiecondizioni'}> la policy sulla privacy </Link>
+                            </div>
+                            }
+                        labelPlacement="end"
+                    />
+                        
                
                         <Button type="submit" />
                     </div>

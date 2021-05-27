@@ -50,7 +50,7 @@ body {
 
 
 .internaContainer .section{
-  margin-top: 75px;
+  margin-top: 65px;
   min-height: 65vh;
   padding-bottom: 4.5rem;
 }
@@ -205,7 +205,10 @@ button.rec-dot_active{
     {
       height: 400px;
       text-align: center;
-     
+      text-decoration: none;
+      border: none;
+      outline: none;
+  
      }
 
      .aw_jobPosting{
@@ -234,15 +237,16 @@ button.rec-dot_active{
 .aw_jobSlider.cs .aw_jobPosting .aw_title /*Titolo dell'Annuncio*/
     {
       color: #fff;
-      height: 50px;
+      height: 60px;
      
       border-bottom: 2px solid rgb(187, 187, 187);
       display: block;
-      background-image: url(/icone/craon_icon_tsr.png), linear-gradient(90deg, rgb(6, 78, 119) 0%, rgb(34, 150, 212, 1) 82%, rgb(34, 150, 212, 1) 100%);
+      background-image: url(/icone/craon_logo_wt.png), linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(34,150,212,1) 74%, rgba(34,150,212,1) 100%);
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-origin: border-box;
-      background-size:calc(100% - 120px);
+      background-position: left center;
+      background-size:calc(100% - 200px);
       text-decoration: grey;
       background-color:  rgb(34, 150, 212, 1);
       padding: 1rem;
@@ -252,6 +256,7 @@ button.rec-dot_active{
       top: 0px;
       transition: all ease 0.3s;
       mix-blend-mode: multiply;
+      font-size: 1rem;
      }
 .aw_jobSlider.cs .aw_jobPosting .aw_location /*Sede di lavoro*/
     {

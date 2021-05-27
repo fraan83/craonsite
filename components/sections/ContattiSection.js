@@ -49,6 +49,7 @@ const ContattiSection = () => {
                 <input type="text" placeholder="Email" {...register("email", {required: true, pattern: /^\S+@\S+$/i})} />
                 <input type="tel" placeholder="Mobile number" {...register("Mobile number", {required: true, minLength: 6, maxLength: 12})} />    */}
                   <TextField
+                  fullWidth
                     name="nome"
                     label="Nome *"
                     variant="outlined"

@@ -147,3 +147,21 @@
   max-width: 300px;
   padding: 1rem;
  }   
+
+
+ @media screen and (max-width: 769px) and (orientation: portrait){
+
+  .pageElements{
+    display: flex;
+    width: 100%;
+    max-width: 80rem;
+    padding-right: 0.8rem;
+    justify-content: center;
+    flex-direction: column;
+    top: 2rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+   
+ }

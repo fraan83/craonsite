@@ -40,6 +40,8 @@
 .sitemap{
     display: flex;
     flex-direction: column;
+    margin: 1rem 0rem 0.4rem 0rem;
+    
 }
 .sitemap li {
     list-style-type: none;
@@ -97,3 +99,48 @@ div.infoRight div:first-child{
 }
 .social li:hover{    opacity: 1; }
 
+
+
+@media screen and (max-width: 569px) and (orientation: portrait) {
+
+   .content{
+    display: flex;
+    width: 1310px;
+    max-width: 94%;
+    padding-bottom: 1.3rem;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-end;
+   }
+
+   .sitemap{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem 0.4rem 0rem;
+    align-items: center;
+    padding-left: 8rem;
+   }
+
+   .sitemap > li{
+       font-size: 1.5rem;
+       line-height: 2rem;
+   }
+   .title{
+    padding-left: 5rem;
+   }
+    .info{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-top: 0rem;
+        font-weight: 100;
+        padding-left: 5rem;
+    }
+    .social{
+        padding-left: 5rem;
+    }
+    .infoRight{
+        padding-left:5rem;
+    }
+
+}
