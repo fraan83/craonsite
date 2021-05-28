@@ -155,13 +155,19 @@
     display: flex;
     width: 100%;
     max-width: 80rem;
-    padding-right: 0.8rem;
+   // padding-right: 0.8rem;
     justify-content: center;
     flex-direction: column;
     top: 2rem;
     align-items: flex-start;
     flex-wrap: wrap;
     align-content: space-around;
+  }
+
+  .defImage{
+    padding-right: 0rem;
+    padding-left: 0.8rem;
+    margin-bottom: 1rem;
   }
    
  }

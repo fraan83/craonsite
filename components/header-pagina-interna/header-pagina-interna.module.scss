@@ -13,7 +13,7 @@
 
   .headerTitle{
     position: absolute;
-    top: calc(1vh + 1vw);
+    top: calc(2vh + 1vw);
     display: flex;
     height: auto;
     width: 100%;
@@ -41,6 +41,7 @@
     letter-spacing: 0.02rem;
     position: absolute;
     top: calc(3vh + 2vw);
+    visibility: hidden;
 
   }
 

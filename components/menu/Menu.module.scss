@@ -138,10 +138,19 @@
 
     }
 
+    .w100{
+        width: 100%;
+    }
+
     .burger{
         display: flex;
         position: absolute;
         right: 2rem;
+        bottom: 2rem;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
        
     }
     .burger:hover{
@@ -171,12 +180,15 @@
 
     .menuContainerMobile{
         display: block;
-        position: relative;
-        top: 28.5vh;
+        position: absolute;
+        top: 88px;
         right: 0;
         left:0;
         animation: show2 0.5s ease-in; 
         width: 100%;
+        background-color: white;
+        padding-bottom: 1rem;
+        border-bottom: 4px solid #2296d4;
  
     }
  
@@ -188,13 +200,13 @@
     .link{
         position: relative;
         top: 0;
-        background: #2a96d4;
-        color: #eeeeee;
+        background: #ffffff;
+        color: #727273;
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
+        justify-content: flex-start;
+        align-items: flex-start;
         cursor: pointer;
-        padding: 2rem 1rem;
+        padding: 1.2rem 1rem;
         font-size: 1rem;
         letter-spacing: 0.09rem;
         font-weight: 400;
@@ -206,12 +218,13 @@
         text-align: center;
         font-family: "Poppins", sans-serif !important;
         flex-direction: column;
-        align-content: flex-end;
+        align-content: center;
         flex-wrap: nowrap;
+        font-size: larger;
     }
     .linkActive, .link:hover{
-        background:#ffffff;
-        color:#2296d4;
+        background:#2296d4;
+        color:#fff;
       
     }
     
@@ -229,7 +242,12 @@
         display: none;
     }
 
-
+    .logoCCAmobile > img{
+        padding: 0.2rem 1rem;
+    }
+    .logoB2Bmobile > img{
+        padding: 0.2rem 1rem;
+    }
 
 }
 @media screen and (max-width: 769px) and (orientation: landscape) {
@@ -238,10 +256,19 @@
 
     }
 
+    .w100{
+        width: 100%;
+    }
+
     .burger{
         display: flex;
         position: absolute;
         right: 2rem;
+        bottom: 2rem;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
        
     }
     .burger:hover{
@@ -271,13 +298,13 @@
 
     .menuContainerMobile{
         display: block;
-        position: relative;
-        top: 28.5vh;
+        position: absolute;
+        top: 88px;
         right: 0;
         left:0;
         animation: show2 0.5s ease-in; 
         width: 100%;
-        background-color: #2a96d4;
+        background-color: white;
  
     }
  
@@ -289,13 +316,13 @@
     .link{
         position: relative;
         top: 0;
-        background: #2a96d4;
-        color: #eeeeee;
+        background: #ffffff;
+        color: #727273;
         display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
+        justify-content: flex-start;
+        align-items: flex-start;
         cursor: pointer;
-        padding: 2rem 1rem;
+        padding: 0.2rem 1rem;
         font-size: 1rem;
         letter-spacing: 0.09rem;
         font-weight: 400;
@@ -307,12 +334,14 @@
         text-align: center;
         font-family: "Poppins", sans-serif !important;
         flex-direction: column;
-        align-content: flex-end;
+        align-content: center;
         flex-wrap: nowrap;
+        font-size: small;
+
     }
     .linkActive, .link:hover{
-        background:#ffffff;
-        color:#2296d4;
+        background:#2296d4;
+        color:#fff;
       
     }
     
@@ -329,14 +358,12 @@
     .logoCCA img{
         display: none;
     }
-
-    .logoB2Bmobile{
-
+    .logoCCAmobile > img{
+        padding: 0.2rem 1rem;
     }
-    .logoCCAmobile{
-        
+    .logoB2Bmobile > img{
+        padding: 0.2rem 1rem;
     }
-
 }
 
  

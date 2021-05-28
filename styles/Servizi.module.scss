@@ -212,3 +212,34 @@
  .itemPolicy h3{
   display: flex;
  }   
+
+
+
+ @media screen and (max-width: 800px){
+
+   .pageElements{
+    display: flex;
+    width: 100%;
+    max-width: 72rem;
+    padding-right: 0.8rem;
+    justify-content: space-between;
+    flex-direction: column;
+    top: 2rem;
+   }
+
+   .defImage{
+     padding-right: 0rem;
+     padding-left: 0.8rem;
+     margin-bottom: 1rem;
+   }
+
+   .contentb2b {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+
+ }

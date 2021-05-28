@@ -10,7 +10,7 @@ import B2Button from 'components/buttons/B2Button';
 import Head from 'next/head';
 import ServiziSection from 'components/sections/ServiziSection';
 const Servizi_SystemIntegration = () => {
-  const handler = () => {
+  const goToB2B = () => {
     alert("clicked");
   };
 
@@ -67,32 +67,32 @@ const Servizi_SystemIntegration = () => {
             </div>
             <div className={classes.contentb2b}>
               <div className={classes.columnb2b}>
-                <h2>Lorem Ipsum </h2>
+                <h2> Prodotto E-commerce 1 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
               </div>
               <div className={classes.columnb2b}>
-                <h2>Lorem Ipsum </h2>
+                <h2> Prodotto E-commerce 2 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
               </div>
               <div className={classes.columnb2b}>
-                <h2>Lorem Ipsum </h2>
+                <h2> Prodotto E-commerce 3 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
               </div>
               <div className={classes.columnb2b}>
-                <h2>Lorem Ipsum </h2>
+                <h2> Prodotto E-commerce 4 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
               </div>
             </div>
             <div className={classes.bottomB2b}>
-              <B2Button />
+              <B2Button onClick={goToB2B}/>
             </div>
 
 

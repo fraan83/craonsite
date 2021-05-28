@@ -218,6 +218,10 @@ button.rec-dot_active{
 .aw_jobSlider.cs .aw_jobPosting /*Contenitore dell'Annuncio*/
     {
      background-color: rgba(255, 255, 255, 0.842);
+     background-image: url(/logo-craon.png);
+     background-repeat: no-repeat;
+     background-position-x: center;
+     background-position-y: calc(100% - 20px);
       border-radius: 6px;
       max-width: 250px;
       height: 200px;
@@ -241,7 +245,7 @@ button.rec-dot_active{
      
       border-bottom: 2px solid rgb(187, 187, 187);
       display: block;
-      background-image: url(/icone/craon_logo_wt.png), linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(34,150,212,1) 74%, rgba(34,150,212,1) 100%);
+     // background-image: url(/icone/craon_logo_wt.png), linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(34,150,212,1) 74%, rgba(34,150,212,1) 100%);
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-origin: border-box;
@@ -276,6 +280,9 @@ button.rec-dot_active{
       color: #fff;
     
      }
+     .aw_jobSlider.cs .aw_jobPosting  .aw_rush{
+    display: block!important;
+  }
 .aw_jobSlider.cs .aw_jobPosting .aw_pin /*Icona segnaposto Sede di lavoro*/
     { }
 .aw_jobSlider.cs .aw_jobPosting:hover /*MouseOver effect Annuncio*/
@@ -283,12 +290,12 @@ button.rec-dot_active{
 .aw_jobSlider.cs .aw_dot /*Segnaposto delle Slide*/
     {
       color: #fff;
-      height: 20px;
-      width: 20px;
-      margin-left: 1rem;
-      border-radius: 20px;
+      height: 10px;
+      width: 10px;
+      //margin-left: 1rem;
+     // border-radius: 20px;
       background: linear-gradient(180deg, rgb(20, 132, 197) 0%, rgb(99, 162, 196) 82%, rgb(113, 160, 224) 100%);
-      border: 2px solid rgb(94, 134, 185);
+      //border: 2px solid rgb(94, 134, 185);
      }
 .aw_jobSlider.cs .aw_dot.is-selected /*Segnaposto Slide corrente*/
     { 

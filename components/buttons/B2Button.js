@@ -14,7 +14,7 @@ B2Button.propTypes = {
 };
 
 B2Button.defaultProps = {
-    text: "SCOPRI I NOSTRI SERVIZI B2B",
+    text: "SCOPRI IL NOSTRO E-COMMERCE",
 };
 
 export default B2Button;

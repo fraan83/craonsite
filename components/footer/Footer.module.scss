@@ -118,8 +118,8 @@ div.infoRight div:first-child{
     display: flex;
     flex-direction: column;
     margin: 1rem 0rem 0.4rem 0rem;
-    align-items: center;
-    padding-left: 8rem;
+    align-items: flex-start;
+    padding-left: 3rem;
    }
 
    .sitemap > li{
@@ -127,20 +127,20 @@ div.infoRight div:first-child{
        line-height: 2rem;
    }
    .title{
-    padding-left: 5rem;
+    padding-left: 3rem;
    }
     .info{
         font-size: 1.4rem;
         line-height: 2rem;
         margin-top: 0rem;
         font-weight: 100;
-        padding-left: 5rem;
+        padding-left: 3rem;
     }
     .social{
-        padding-left: 5rem;
+        padding-left: 3rem;
     }
     .infoRight{
-        padding-left:5rem;
+        padding-left: 3rem;
     }
 
 }

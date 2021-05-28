@@ -118,3 +118,11 @@
   position: relative;
   left:0px;
 }
+
+@media  screen and (max-width: 800px) and (orientation: portrait) {
+
+  .contentForm{
+    width: 100%;
+  }
+
+}

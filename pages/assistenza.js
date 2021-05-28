@@ -62,7 +62,7 @@ const Assistenza = () => {
       <Link href={{ pathname: '/', query: { section: 'chisiamo' } }}><a>path</a></Link>
       <section className={`section ${classes.section} `} >
         <HeaderPaginaInterna title="Come possiamo aiutarti?"
-          subtitle="I nostri servizi di assistenza sono attivi 24 ore su 24." />
+          subtitle="I nostri servizi di assistenza sono attivi." />
         <div className={classes.content}>
 
           <div className={classes.pageElements}>
@@ -90,9 +90,7 @@ const Assistenza = () => {
             </div>
 
 
-            <div className={classes.pageElements}>
-
-            </div>
+         
           </div>
         </div>
       </section>

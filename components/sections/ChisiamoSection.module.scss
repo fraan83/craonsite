@@ -64,10 +64,10 @@
   padding-left: 0.8rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: rgb(99, 98, 98);
+  color: #4d4b4b;
   font-family: "Lato", sans-serif;
-  line-height: calc(1vh + 1vw);
-  font-size: calc(0.6vh + 0.6vw);
+  line-height: calc(1.2vh + 1vw);
+  font-size: calc(0.8vh + 0.6vw);
   font-weight: 300;
 }
 
@@ -133,6 +133,6 @@
     .bottomInfo .content{
       padding: 1rem;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
     }
  }
