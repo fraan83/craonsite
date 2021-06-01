@@ -242,7 +242,6 @@ button.rec-dot_active{
     {
       color: #fff;
       height: 60px;
-     
       border-bottom: 2px solid rgb(187, 187, 187);
       display: block;
      // background-image: url(/icone/craon_logo_wt.png), linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(34,150,212,1) 74%, rgba(34,150,212,1) 100%);
@@ -253,7 +252,7 @@ button.rec-dot_active{
       background-size:calc(100% - 200px);
       text-decoration: grey;
       background-color:  rgb(34, 150, 212, 1);
-      padding: 1rem;
+      padding: 0.5rem;
       border-top-left-radius: 6px;
       border-top-right-radius: 6px;
       position: relative;

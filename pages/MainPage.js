@@ -11,7 +11,6 @@ import CarriereSection from "components/sections/CarriereSection";
 import ChisiamoSection from "components/sections/ChisiamoSection";
 import Menu from "components/menu/Menu";
 import { useRouter } from 'next/router';
-import aos from 'aos';
 import 'aos/dist/aos.css';
 import Aos from "aos";
 

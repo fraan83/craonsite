@@ -37,7 +37,7 @@ export default function Home() {
              Assistenza sistemistica. Formazione digitale, Progettazzione sistemi informativi Consulenza informatica it solutions, Sviluppo app, sviluppo applicaizoni, corsi informatica, corso react, corso angular,
              ricerca IT, ricerca informatica. Buy beautiful, responsive deisgn yourwebsite. Video corsi videocorsi online c# asp.net core 3.1 asp.net cire core
              Craon è il partner giusto. sviluppo portali web sviluppo portale web per PMI piccole medie imprese. applicazioni per pmi. resoourcing. "/>
-             <script src="https://kit.fontawesome.com/f9028cf83e.js" crossorigin="anonymous"></script>
+             <script src="https://kit.fontawesome.com/f9028cf83e.js" crossOrigin="anonymous"></script>
           </Head>
           <MainPage />
           {/* <h1 className="title">

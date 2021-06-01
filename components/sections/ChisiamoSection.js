@@ -8,6 +8,7 @@ import InfoNumberText from "components/info-number-text/InfoNumberText";
 const ChisiamoSection = () => {
   const handler = () => {
     alert("clicked");
+  
   };
 
   return ( 
@@ -24,8 +25,8 @@ const ChisiamoSection = () => {
              
             Nata nel 1998 per iniziativa di un gruppo di professionisti del settore informatico, negli anni è cresciuta sia nel settore dello sviluppo di soluzioni <b> <i>tailor made</i> </b>per i propri clienti, sia nel campo della consulenza a 360°: programmazione e sviluppo sia lato Back End che lato Front End, gestione di infrastrutture sistemistiche, <b><i>problem solving</i></b>.
             <br />
-            
-            Craon costruisce progressivamente la propria competitività sul mercato IT attraverso alcuni semplici <i>driver:</i>
+            <br></br>
+            Craon costruisce progressivamente la propria competitività sul mercato IT attraverso alcuni semplici  <i><b>driver</b></i>:
             <br></br>
               <ul className={classes.clist}>
                 <li>Processi decisionali snelli e veloci;</li>

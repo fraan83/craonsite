@@ -132,7 +132,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 769px) and (orientation: portrait) {
+@media screen and (max-width: 1024px) and (orientation: portrait) {
     .navigation {
         display: none;
 
@@ -146,7 +146,7 @@
         display: flex;
         position: absolute;
         right: 2rem;
-        bottom: 2rem;
+        top: 1.5rem;
         align-content: center;
         flex-wrap: nowrap;
         flex-direction: row;
@@ -250,7 +250,7 @@
     }
 
 }
-@media screen and (max-width: 769px) and (orientation: landscape) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
     .navigation {
         display: none;
 
@@ -264,7 +264,7 @@
         display: flex;
         position: absolute;
         right: 2rem;
-        bottom: 2rem;
+        top: 1.5rem;
         align-content: center;
         flex-wrap: nowrap;
         flex-direction: row;
@@ -305,6 +305,8 @@
         animation: show2 0.5s ease-in; 
         width: 100%;
         background-color: white;
+        padding-bottom: 1rem;
+        border-bottom: 4px solid #2296d4;
  
     }
  
@@ -366,4 +368,12 @@
     }
 }
 
+ @media screen and (min-width: 1000px) and (max-width: 1250px) {
+    .link{
+      
+        font-size: 0.7rem;
+        letter-spacing: 0rem;
  
+
+    }
+ }

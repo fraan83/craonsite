@@ -40,7 +40,7 @@ const Servizi_Enterprise = () => {
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <meta property="og:title" content="Craon Srl" key="title" />
         <meta name="description" content="Craon Enterprise Resourcing E.R.P. " />
-        <script src="https://kit.fontawesome.com/f9028cf83e.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/f9028cf83e.js" crossOrigin="anonymous"></script>
       </Head>
       <Menu activeElement={"servizi"} pagInterna={true} />
       <Link href={{ pathname: '/', query: { section: 'chisiamo' } }}><a>path</a></Link>

@@ -69,7 +69,23 @@
   -webkit-margin-after: 2vh;
   margin-block-end: 2vh;
 }
-
+@media screen and (max-width:820px) {
+ .container{
+  width: 17rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #e0d9d1;
+  border-radius: 6px;
+  background: white;
+  flex-wrap: nowrap;
+  align-items: center;
+ }
+ .title{
+  min-height: 80px;
+}
+}
 @media screen and (max-width:500px) {
   .cardGrid{
     display: flex;

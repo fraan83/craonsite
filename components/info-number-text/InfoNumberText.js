@@ -13,8 +13,9 @@ const InfoNumberText = ({ plus, number, percent, text }) => {
             <h3 className={classes.infoNumber} >{plus}
                 <AnimatedNumber
                     value={number}
-                    formatValue={(number) => number.toFixed(0)}
-                    duration={3000}
+                    formatValue={(number) => number.toFixed(0).toLocaleString('It')}
+                    duration={3500}
+                  
                 />
                  {percent}
             </h3>
@@ -30,6 +31,7 @@ InfoNumberText.propTypes = {
     text: PropTypes.string.isRequired,
     plus: PropTypes.string,
     percent: PropTypes.string,
+    
 };
 
 
