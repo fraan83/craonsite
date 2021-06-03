@@ -37,6 +37,9 @@
 } 
 
 @media (max-width: 800px) {
+
+
+
 	.container .infoNumber {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -50,11 +53,20 @@
 
     .infoNumber{
     
-        font-size: 2rem;
+        font-size: 3.5rem;
     
     }
 
     .infoText{
         font-size: 1rem;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    
 }

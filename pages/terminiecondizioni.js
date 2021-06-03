@@ -58,7 +58,7 @@ const TerminiECondizioni = () => {
         <meta property="og:title" content="Craon Srl" key="title" />
         <meta name="description" content="Termini e Condzioni dell'assistenza Craon,  Conttattare l'utente per l'assistenza utilizza cookies Google Analytics.
             Informazioni di contatto utilizzo assistenza. "/>
-        <script src="https://kit.fontawesome.com/f9028cf83e.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/f9028cf83e.js" crossOrigin="anonymous"></script>
       </Head>
       <Menu activeElement={"sezAssistenza"} pagInterna={true} />
       <Link href={{ pathname: '/', query: { section: 'chisiamo' } }}><a>path</a></Link>

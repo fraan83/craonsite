@@ -169,5 +169,12 @@
     padding-left: 0.8rem;
     margin-bottom: 1rem;
   }
-   
+  .containerPolicy{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+}
  }

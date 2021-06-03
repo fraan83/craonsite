@@ -62,7 +62,7 @@
   text-transform: uppercase;
   color: #2296d4;
   font-size: 3.2rem;
-  letter-spacing: -0.22rem;
+  letter-spacing: 0.22rem;
   text-align: center;
   mix-blend-mode: normal;
   padding: 1rem;
@@ -84,6 +84,7 @@
  }
  .title{
   min-height: 80px;
+
 }
 }
 @media screen and (max-width:500px) {
@@ -100,6 +101,10 @@
 
   .cardContainer{
     width: 100%;
+  }
+
+  .titleSection{
+    font-size: 2rem;
   }
   
 }

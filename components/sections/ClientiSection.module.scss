@@ -49,3 +49,18 @@
     filter: none;
      filter: none; 
   }
+
+  @media screen and (max-width: 500px){
+  
+  .logoContainer{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.7rem;
+    padding-bottom: 1.59rem;
+    border-bottom: 1px solid #eee;
+  }
+  .logoContainer img{   max-width: 84%;
+  }
+}
