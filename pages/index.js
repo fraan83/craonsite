@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
-import MainPage from "pages/MainPage" 
+import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
+import MainPage from "pages/MainPage";
+
 
 export default function Home() {
 
@@ -40,6 +41,7 @@ export default function Home() {
              <script src="https://kit.fontawesome.com/f9028cf83e.js" crossOrigin="anonymous"></script>
           </Head>
           <MainPage />
+     
           {/* <h1 className="title">
             Read{' '}
             <Link href="/assistenza">
