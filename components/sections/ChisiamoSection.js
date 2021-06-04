@@ -57,7 +57,13 @@ const ChisiamoSection = () => {
       <div className={classes.bottomInfo}>
         <div className={classes.content}>
 
-          <Carousel showArrows={true} pagination={paginazione} itemsToShow={contenutiDaMostrare} enableAutoPlay autoPlaySpeed={3750}>
+          <Carousel 
+          showArrows={true} 
+          pagination={false}  
+          itemsToShow={contenutiDaMostrare} 
+          enableAutoPlay autoPlaySpeed={3750}
+          
+          >
 
             <InfoNumberText plus="" number="23" percent="" text="anni di esperienza" />
 

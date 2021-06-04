@@ -165,7 +165,7 @@ div.textField{
 
 //CAROUSEL
 
-//button.rec-arrow{ display:none; }
+button.rec-arrow{ display:none; }
 
 button.rec-dot, button.rec-dot:hover, button.rec-dot:focus{
   box-shadow: 0 0 1px 3px rgb(34 150 212);
@@ -178,11 +178,17 @@ button.rec-dot_active{
   background-color: #2296d4;
   box-shadow: 0 0 1px 3px rgb(34 150 212);
 }
-
+ 
 .buttonDecline{
   background-color: rgb(182, 61, 61);
   padding: 1rem;
   color: #fff;
+}
+
+@media screen and (max-width: 800px){
+
+  button.rec-arrow{ display:block; };
+ 
 }
 
 //ALLIBO
