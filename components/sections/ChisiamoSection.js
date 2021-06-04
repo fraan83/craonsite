@@ -35,10 +35,10 @@ const ChisiamoSection = () => {
           </div>
           <div className={classes.text}>
             <strong>CRAON</strong> è un'azienda giovane, dinamica e positiva, che opera in ambito IT attraverso l'utilizzo di tecnologie innovative, soluzioni digital e metodologie di programmazione all'avanguardia.
-            <br />
+      
 
             Nata nel 1998 per iniziativa di un gruppo di professionisti del settore informatico, negli anni è cresciuta sia nel settore dello sviluppo di soluzioni <b> <i>tailor made</i> </b>per i propri clienti, sia nel campo della consulenza a 360°: programmazione e sviluppo sia lato Back End che lato Front End, gestione di infrastrutture sistemistiche, <b><i>problem solving</i></b>.
-            <br />
+    
             <br></br>
             Craon costruisce progressivamente la propria competitività sul mercato IT attraverso alcuni semplici  <i><b>driver</b></i>:
             <br></br>
