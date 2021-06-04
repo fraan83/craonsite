@@ -67,8 +67,8 @@
   box-sizing: border-box;
   color: #696259;
   font-family: "Lato", sans-serif;
-  line-height: 1.6rem;
-  font-size: 1rem;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -112,6 +112,7 @@ button.rec-arrow {
   display: none;
 }
 
+ 
 
 @media screen and (max-width: 1370px) {
   .chisiamoImage img{
@@ -121,7 +122,17 @@ button.rec-arrow {
     border-radius: 6px;
     border: 1px solid white;
   }
-
+  .text{
+    flex: 1 1;
+    padding-left: 0.8rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #696259;
+    font-family: "Lato", sans-serif;
+    line-height: 1.6rem;
+    font-size: 1rem;
+    font-weight: 300;
+  }
 }
 
  
