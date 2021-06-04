@@ -5,21 +5,24 @@ import AnimatedNumber from "animated-number-react";
 
 
 const InfoNumberText = ({ plus, number, percent, text }) => {
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    }
 
-     
+
     return (
         <div className={classes.container}>
-         
+
             <h3 className={classes.infoNumber} >{plus}
                 <AnimatedNumber
                     value={number}
-                    formatValue={(number) => number.toFixed(0).toLocaleString('It')}
+                    formatValue={(number) => numberWithCommas(number.toFixed(0))}
                     duration={3500}
-                  
+
                 />
-                 {percent}
+                {percent}
             </h3>
-      
+
             <div className={classes.infoText}>{text}
             </div>
         </div>
@@ -31,7 +34,7 @@ InfoNumberText.propTypes = {
     text: PropTypes.string.isRequired,
     plus: PropTypes.string,
     percent: PropTypes.string,
-    
+
 };
 
 
