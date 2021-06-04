@@ -70,6 +70,8 @@ const TerminiECondizioni = () => {
           <div className={classes.titlePrivacy}>
             <h3>Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</h3>
           </div>
+
+          
           <div className={classes.containerPolicy}>
             <div className={classes.itemPolicy}>
               <h3> <EmailIcon /> Contattare l'Utente</h3>
@@ -84,6 +86,7 @@ const TerminiECondizioni = () => {
                 Dati Personali: varie tipologie di Dati secondo quanto specificato dalla privacy policy del servizio</p>
             </div>
            
+      
           </div>
           <div className={classes.containerPolicy}>
           <div className={classes.itemPolicy}>
@@ -93,7 +96,7 @@ const TerminiECondizioni = () => {
               <p>
 
                 Dati Personali: Cookie; Dati di utilizzo
-
+ 
               </p>
             </div>
 
