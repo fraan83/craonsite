@@ -1,15 +1,70 @@
+import React, { useRef, useEffect } from "react";
 import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import MainPage from "pages/MainPage";
-
-
-export default function Home() {
+import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
+import { initGA } from "components/google-analytics/ga-utils.ts";
 
  
 
+export default function Home() {
+
+  const handleAcceptCookie = () => {
+    if (process.env.REACT_APP_GOOGLE_ANALYTICS_ID) {
+      initGA(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
+    }
+    console.log('coookies', getCookieConsentValue())
+  };
+  const handleDeclineCookie = () => {
+    //remove google analytics cookies
+    Cookies.remove("_ga");
+    Cookies.remove("_gat");
+    Cookies.remove("_gid");
+    console.log('coookies', getCookieConsentValue())
+  };
+  useEffect(() => {
+    const isConsent = getCookieConsentValue();
+    if (isConsent === "true") {
+      handleAcceptCookie();
+    }
+  }, []);
+
+
   return (
     <div className="siteContainer">
+       <CookieConsent 
+            debug={true}
+            location="bottom"
+            style={{background: '#f5f2ee', color: '#696259' }}
+            buttonStyle={{ background: '#2296d4', borderColor: '2296d4', color: '#fff', padding: '1rem' }}
+            buttonText="ACCONSENTO"
+            enableDeclineButton={true}
+            declineButtonText="DECLINO"
+            declineButtonStyle={{ background: 'red', borderColor: '2296d4', color: '#fff', padding: '1rem' }}
+            cookieName="craon_cookies"
+            expires={150}
+            onAccept={handleAcceptCookie}
+            onDecline={handleDeclineCookie}
+            >
+                <h3>Informazioni sui cookie presenti in questo sito</h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>
+                                    Utilizziamo i <Link href={'/terminiecondizioni'}> cookie per raccogliere   </Link>e analizzare informazioni sulle prestazioni e sull'utilizzo del sito, per fornire funzionalità di social media e per migliorare e personalizzare contenuti e pubblicità presenti
+                             </p>
+
+                            </td>
+                            <td>
+
+                            </td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </CookieConsent>
          <Head>
             <title>Craon Srl</title>
             <link rel="icon" href="/favicon/favicon.ico" />

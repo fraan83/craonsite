@@ -14,10 +14,7 @@ import Menu from "components/menu/Menu";
 import { useRouter } from 'next/router';
 import 'aos/dist/aos.css';
 import Aos from "aos";
-import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
-import { initGA } from "components/google-analytics/ga-utils.ts";
 
- 
 
 const MainPage = () => {
     const marginMenu = -90;
@@ -27,62 +24,11 @@ const MainPage = () => {
     }, [])
 
 
-    const handleAcceptCookie = () => {
-        if (process.env.REACT_APP_GOOGLE_ANALYTICS_ID) {
-          initGA(process.env.REACT_APP_GOOGLE_ANALYTICS_ID);
-        }
-        console.log('coookies', getCookieConsentValue())
-      };
-      const handleDeclineCookie = () => {
-        //remove google analytics cookies
-        Cookies.remove("_ga");
-        Cookies.remove("_gat");
-        Cookies.remove("_gid");
-        console.log('coookies', getCookieConsentValue())
-      };
-      useEffect(() => {
-        const isConsent = getCookieConsentValue();
-        if (isConsent === "true") {
-          handleAcceptCookie();
-        }
-      }, []);
-
+ 
     // console.log("QUERY",router.query.section); 
 
     return (
-        <div>
-            <CookieConsent 
-            debug={true}
-            location="bottom"
-            style={{background: '#f5f2ee', color: '#696259' }}
-            buttonStyle={{ background: '#2296d4', borderColor: '2296d4', color: '#fff', padding: '1rem' }}
-            buttonText="ACCONSENTO"
-            enableDeclineButton={true}
-            declineButtonText="DECLINO"
-            declineButtonStyle={{ background: 'red', borderColor: '2296d4', color: '#fff', padding: '1rem' }}
-            cookieName="craon_cookies"
-            expires={150}
-            onAccept={handleAcceptCookie}
-            onDecline={handleDeclineCookie}
-            >
-                <h3>Informazioni sui cookie presenti in questo sito</h3>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <p>
-                                    Utilizziamo i <Link href={'/terminiecondizioni'}> cookie per raccogliere   </Link>e analizzare informazioni sulle prestazioni e sull'utilizzo del sito, per fornire funzionalità di social media e per migliorare e personalizzare contenuti e pubblicità presenti
-                             </p>
-
-                            </td>
-                            <td>
-
-                            </td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </CookieConsent>
+ 
 
             <ScrollNavigation elements={{ sezHome: {}, servizi: {}, chisiamo: {}, clienti: {}, carriere: {}, contatti: {} }} >
                 {({ refs, activeElement, goTo }) => (
@@ -112,7 +58,7 @@ const MainPage = () => {
                     </div>
                 )}
             </ScrollNavigation>
-        </div>
+        
     );
 
 }
