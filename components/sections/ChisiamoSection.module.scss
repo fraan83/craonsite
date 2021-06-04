@@ -147,6 +147,14 @@ button.rec-arrow {
  
 @media screen and (max-width: 769px) and (orientation: portrait){
 
+
+ .chisiamoImage img {
+    height: 100%;
+    max-width: 100%;
+    align-self: flex-start;
+    border-radius: 6px;
+    border: 1px solid #fff;
+}
     .pageElements{
       display: flex;
       width: 100%;
@@ -167,10 +175,11 @@ button.rec-arrow {
       width: 100%;
       max-width: 100vw;
       flex-direction: column;
-      padding: 0rem 1rem;
+      padding: 0rem 0.5rem;
       box-sizing: border-box;
-   
   }
+
+   
     .chisiamoImage{
       max-height: 100vh;
       max-width: 100vw;
@@ -183,9 +192,12 @@ button.rec-arrow {
     }
 
     .bottomInfo .content{
-      padding: 1rem;
+      padding: 0.5rem;
       display: flex;
       flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      align-items: flex-start;
     }
  
     

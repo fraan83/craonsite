@@ -56,15 +56,8 @@ const ChisiamoSection = () => {
       </div>
       <div className={classes.bottomInfo}>
         <div className={classes.content}>
-
-          <Carousel 
-          showArrows={true} 
-          pagination={false}  
-          itemsToShow={contenutiDaMostrare} 
-          enableAutoPlay autoPlaySpeed={3750}
-          
-          >
-
+ 
+ 
             <InfoNumberText plus="" number="23" percent="" text="anni di esperienza" />
 
             <InfoNumberText plus="+" number="100000" percent="" text="giornate di consulenza" />
@@ -72,8 +65,7 @@ const ChisiamoSection = () => {
             <InfoNumberText plus="+" number="10000" percent="" text="ore di formazione interna" />
 
             <InfoNumberText plus="" number="93" percent="%" text="customer fidelity" />
-
-          </Carousel>
+ 
         </div>
       </div>
       {/* <div className={classes.gradient}>              
