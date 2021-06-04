@@ -112,6 +112,15 @@ button.rec-arrow {
   display: none;
 }
 
+@media screen and (max-width: 1440px){
+    .chisiamoImage img {
+      height: 66vh;
+      max-width: 100%;
+      align-self: flex-start;
+      border-radius: 6px;
+      border: 1px solid white;
+  }
+}
  
 
 @media screen and (max-width: 1370px) {
