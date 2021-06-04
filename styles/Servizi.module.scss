@@ -35,10 +35,10 @@
     display:flex;
    
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     padding-right:0.8rem;
     box-sizing: border-box;   
- 
+  
   }
 
   .defImage img{
@@ -46,12 +46,13 @@
   }
   
   .text{
-    flex: 1 1 100%;
+    flex: 1 1 65%;
     padding-left: 0.8rem;
     box-sizing: border-box;
     color: #696259;
     font-family: "Lato", sans-serif;
     line-height: 1.6rem;
+  
   }
   
   
@@ -80,6 +81,17 @@
   }
 
 
+
+  .clist {
+    display: flex;
+    align-items: flex-start;
+    list-style-image: url(/icone/right-arrow.png);
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
+  }
 
 
   /* B2B SYSTEM INTEGRATION PAGE */
@@ -225,12 +237,18 @@
     justify-content: space-between;
     flex-direction: column;
     top: 2rem;
+    margin-bottom: 2rem;
+    order:1;
+  
    }
 
    .defImage{
      padding-right: 0rem;
      padding-left: 0.8rem;
      margin-bottom: 1rem;
+     margin-top: 2rem;
+     order:2;
+     
    }
 
    .contentb2b {

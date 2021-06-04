@@ -51,12 +51,36 @@ const Servizi_ITSecurity = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/it_security.jpg" width={450} height={319} alt="image" />
+              <Image src="/servizi/it_security.jpg" width={450} height={319} alt="It Securuty" layout="fixed" />
             </div>
             <div className={classes.text}>
-              <strong>Curabitur arcu erat</strong>, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Vestibulum</strong> ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.<br /><br /> <strong>Nulla porttitor accumsan tincidunt</strong>. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero malesuada feugiat. Donec rutrum congue leo eget malesuada. Cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque.Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh.
+              La connessione costante comporta nuovi rischi per la sicurezza dei dati. <strong>Craon offre servizi a 360 gradi per la sicurezza informatica</strong>.
+            <br></br>
+              <br></br>
+            Con una Business Unit interamente dedicata, l’azienda offre soluzioni che includono: progettazione, implementazione, gestione, manutenzione ed ottimizzazione di infrastrutture di reti complesse, gestione remota delle infrastrutture IT, soluzioni VoIP, colocation, housing, hosting, VPS, carrier broadband e outsourcing di infrastrutture IT.
+            <br></br>
+            In realtà aziendali complesse e strutturate la sicurezza dei dati e della rete sono vitali. Craon mette a disposizione servizi completi per la sicurezza informatica a partire dalla verifica delle vulnerabilità delle reti e la risoluzione delle criticità e delle problematiche riscontrate. L’azienda garantisce, inoltre, una risposta veloce e puntuale nel caso di attacchi per circoscrivere i danni permettendo ai sistemi aziendali di continuare a lavorare.
+            <br></br>
+              <br></br>
+              <strong>Vulnerability assessment e penetration test.</strong>
+              <br></br>
+            Siamo in grado di valutare le misure di sicurezza delle infrastrutture della vostra azienda testandone l'efficacia: valutazione delle minacce, valutazione delle vulnerabilità e scansione delle vulnerabilità.
+            <br></br>
+            Con i penetration test possiamo trovare potenziali violazioni della sicurezza prima che possano essere sfruttate da qualcuno. Possibili esempi dell'impatto aziendale di un tale attacco potrebbero includere il furto di informazioni sensibili, l'utilizzo non autorizzato delle risorse del server, o la compromissione dell'infrastruttura interna dell'azienda utilizzando l'applicazione vulnerabile come gateway.
+            <br></br>
+            Il nostro team effettuerà un'ampia analisi dei rischi per rilasciare raccomandazioni a livello strategico, tattico e operativo.
+            <br></br>
+              <br></br>
+              <strong> Disaster recovery e business continuity.</strong>
+              <br></br>
+            In caso di disastro le aziende spesso subiscono le conseguenze di massicce perdite di dati, interruzioni di applicazioni e hardware distrutto, con il risultato di un'infrastruttura aziendale paralizzata che è difficile, se non impossibile, da riparare. Se non fate piani definiti per prendervi cura delle informazioni, il vostro business potrebbe essere permanentemente paralizzato. Craon aiuta a ridurre al minimo l'impatto dannoso di disastri imprevisti, preparando le aziende a ripristinare rapidamente ed efficacemente i servizi di infrastruttura tecnologica in seguito a incidenti.
+
+            I nostri consulenti IT esperti sviluppano strategie di emergenza per tutti i tipi e dimensioni di organizzazioni, garantendo la massima tranquillità e mantenendo i dipendenti e i dati collegati in caso di emergenza.
+            <br></br>
+              <br></br>
+            Craon è un partner affidabile che fornisce soluzioni di IT security per garantire la sicurezza dei dati in azienda e la business continuity.
+
+
               </div>
           </div>
         </div>

@@ -51,12 +51,24 @@ const Servizi_SviluppoSoftware = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/sviluppo_software.jpg" width={450} height={319} alt="image" />
+              <Image src="/servizi/sviluppo_software_s.jpg"  layout="fixed"  width={450} height={319} alt="Sviluppo Software" />
             </div>
             <div className={classes.text}>
-              <strong>Curabitur arcu erat</strong>, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Vestibulum</strong> ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.<br /><br /> <strong>Nulla porttitor accumsan tincidunt</strong>. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero malesuada feugiat. Donec rutrum congue leo eget malesuada. Cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque.Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh.
+              Grazie ad una combinazione tra   <strong>elevata capacità tecnica </strong>e profonde abilità di analisi dei processi aziendali, derivate da una pluriennale esperienza, l’azienda offre servizi di sviluppo software personalizzato in tecnologia .net core, java, node.js, angular, react, vue.
+              <br></br>
+
+                La metodologia utilizzata dai nostri analisti aziendali consente di raccogliere le specifiche per progetti chiavi in mano. Il nostro approccio Agile nello sviluppo del software ci permette di fornire valore ai nostri clienti in modo più rapido e rispondere più velocemente ai cambiamenti.
+                <br></br>
+                <br></br>
+
+                Grazie a team composti da esperti sviluppatori del settore, guidati da Team Leader flessibili e preparati, Craon è in grado di supportare il cliente nella scelta delle migliori tecnologie per lo sviluppo in base alle reali necessità, prediligendo applicativi all’avanguardia. Una volta sviluppato il programma, l’azienda fornisce un periodo di garanzia e una manutenzione costante dei sistemi, così che tutto continui a funzionare correttamente e in maniera continuativa.
+                <br></br>
+                <br></br>
+                <strong>Craon sviluppa soluzioni software  </strong>partendo dall'analisi del suo inserimento in azienda fino alla progettazione delle funzionalità e del dimensionamento dell'architettura, realizzata in totale integrazione con i sistemi informativi esistenti.
+                <br></br>
+                La collaborazione efficiente in azienda ha come risultato prodotti migliori, servizi migliori, clienti soddisfatti e riduzione di costi e tempi di produzione.
+
+
               </div>
           </div>
         </div>

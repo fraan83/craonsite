@@ -31,7 +31,7 @@ const ChisiamoSection = () => {
         <Title text="Chi Siamo" />
         <div className={classes.pageElements}>
           <div className={classes.chisiamoImage}>
-            <img src="/chi-siamo.jpg" alt="image" />
+            <img src="/chi-siamo-s.jpg" alt="image" />
           </div>
           <div className={classes.text}>
             <strong>CRAON</strong> è un'azienda giovane, dinamica e positiva, che opera in ambito IT attraverso l'utilizzo di tecnologie innovative, soluzioni digital e metodologie di programmazione all'avanguardia.
