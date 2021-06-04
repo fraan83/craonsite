@@ -58,9 +58,11 @@ const ChisiamoSection = () => {
         <div className={classes.content}>
  
  
-            <InfoNumberText plus="" number="23" percent="" text="anni di esperienza" />
+   
 
             <InfoNumberText plus="+" number="100000" percent="" text="giornate di consulenza" />
+
+            <InfoNumberText plus="" number="23" percent="" text="anni di esperienza" />
 
             <InfoNumberText plus="+" number="10000" percent="" text="ore di formazione interna" />
 
