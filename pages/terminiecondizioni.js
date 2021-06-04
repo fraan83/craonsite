@@ -68,7 +68,7 @@ const TerminiECondizioni = () => {
         <div className={classes.content}>
 
           <div className={classes.titlePrivacy}>
-            <h1>Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</h1>
+            <h3>Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</h3>
           </div>
           <div className={classes.containerPolicy}>
             <div className={classes.itemPolicy}>

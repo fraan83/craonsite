@@ -15,7 +15,7 @@ const ChisiamoSection = () => {
   //console.log('larghezza', width);
   var contenutiDaMostrare = 4;
   var paginazione = false;
-  if(width <= 860){
+  if(width <= 800){
     contenutiDaMostrare = 1
     paginazione = true;
   }
