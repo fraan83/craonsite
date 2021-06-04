@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="siteContainer">
        <CookieConsent 
-            debug={true}
+            debug={false}
             location="bottom"
             style={{background: '#f5f2ee', color: '#696259' }}
             buttonStyle={{ background: '#2296d4', borderColor: '2296d4', color: '#fff', padding: '1rem' }}

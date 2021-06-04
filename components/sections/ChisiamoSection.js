@@ -49,7 +49,7 @@ const ChisiamoSection = () => {
               <li>Volontà di instaurare relazioni di lungo periodo con i clienti da un lato e con i membri della squadra dall’altro;</li>
               <li>Ampliamento delle aree di business attraverso la partecipazione societaria con strutture specializzate in settori specifici.</li>
             </ul>
-            <br />
+ 
             Queste caratteristiche fanno di Craon un partner ideale per accompagnare i clienti nella digitalizzazione della loro attività, e nella modernizzazione delle soluzioni di gestione dei processi di Information technology.
             </div>
         </div>
