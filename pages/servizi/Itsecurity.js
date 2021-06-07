@@ -62,6 +62,11 @@ const Servizi_ITSecurity = () => {
             In realtà aziendali complesse e strutturate la sicurezza dei dati e della rete sono vitali. Craon mette a disposizione servizi completi per la sicurezza informatica a partire dalla verifica delle vulnerabilità delle reti e la risoluzione delle criticità e delle problematiche riscontrate. L’azienda garantisce, inoltre, una risposta veloce e puntuale nel caso di attacchi per circoscrivere i danni permettendo ai sistemi aziendali di continuare a lavorare.
             <br></br>
               <br></br>
+        
+
+              </div>
+
+              <div className={classes.textBottom}>
               <strong>Vulnerability assessment e penetration test.</strong>
               <br></br>
             Siamo in grado di valutare le misure di sicurezza delle infrastrutture della vostra azienda testandone l'efficacia: valutazione delle minacce, valutazione delle vulnerabilità e scansione delle vulnerabilità.
@@ -81,7 +86,7 @@ const Servizi_ITSecurity = () => {
             Craon è un partner affidabile che fornisce soluzioni di IT security per garantire la sicurezza dei dati in azienda e la business continuity.
 
 
-              </div>
+                </div>
           </div>
         </div>
         <ServiziSection></ServiziSection>

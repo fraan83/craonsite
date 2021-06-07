@@ -64,12 +64,19 @@ const Servizi_Enterprise = () => {
  Analizziamo il vostro attuale ambiente di business per identificare le incompatibilità di sistemi disparati e formuliamo strategie per integrare e migrare il software ERP mission critical in un'infrastruttura convergente.
  <br></br>
  <br></br>
- I nostri sviluppatori esperti inoltre forniscono tutta la consulenza necessaria per supportare meglio le applicazioni software più vecchie, migliorare l’operatività, analizzare lo stato attuale dei sistemi, valutare eventuali
+
+              </div>
+
+
+              <div className={classes.textBottom}>
+
+              I nostri sviluppatori esperti inoltre forniscono tutta la consulenza necessaria per supportare meglio le applicazioni software più vecchie, migliorare l’operatività, analizzare lo stato attuale dei sistemi, valutare eventuali
  lacune che possono richiedere la personalizzazione ed effettuare i test per garantire un corretto funzionamento.
  <br></br>
  <br></br>
- Craon è in grado di rispondere concretamente alle esigenze di ogni tipo di cliente, grazie alla capacità di integrare gli applicativi ERP alle diverse soluzioni informatiche.
+ <b>Craon</b> è in grado di rispondere concretamente alle esigenze di ogni tipo di cliente, grazie alla capacità di integrare gli applicativi ERP alle diverse soluzioni informatiche.
  
+
               </div>
           </div>
         </div>

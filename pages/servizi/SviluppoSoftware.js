@@ -51,7 +51,7 @@ const Servizi_SviluppoSoftware = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/sviluppo_software_s.jpg"  layout="fixed"  width={450} height={319} alt="Sviluppo Software" />
+              <Image src="/servizi/sviluppo_software.jpg"  layout="fixed"  width={450} height={319} alt="Sviluppo Software" />
             </div>
             <div className={classes.text}>
               Grazie ad una combinazione tra   <strong>elevata capacità tecnica </strong>e profonde abilità di analisi dei processi aziendali, derivate da una pluriennale esperienza, l’azienda offre servizi di sviluppo software personalizzato in tecnologia .net core, java, node.js, angular, react, vue.
@@ -64,9 +64,15 @@ const Servizi_SviluppoSoftware = () => {
                 Grazie a team composti da esperti sviluppatori del settore, guidati da Team Leader flessibili e preparati, Craon è in grado di supportare il cliente nella scelta delle migliori tecnologie per lo sviluppo in base alle reali necessità, prediligendo applicativi all’avanguardia. Una volta sviluppato il programma, l’azienda fornisce un periodo di garanzia e una manutenzione costante dei sistemi, così che tutto continui a funzionare correttamente e in maniera continuativa.
                 <br></br>
                 <br></br>
-                <strong>Craon sviluppa soluzioni software  </strong>partendo dall'analisi del suo inserimento in azienda fino alla progettazione delle funzionalità e del dimensionamento dell'architettura, realizzata in totale integrazione con i sistemi informativi esistenti.
+           
+              </div>
+              
+              <div className={classes.textBottom}>
+
+              <strong>Craon sviluppa soluzioni software  </strong>partendo dall'analisi del suo inserimento in azienda fino alla progettazione delle funzionalità e del dimensionamento dell'architettura, realizzata in totale integrazione con i sistemi informativi esistenti.
                 <br></br>
                 La collaborazione efficiente in azienda ha come risultato prodotti migliori, servizi migliori, clienti soddisfatti e riduzione di costi e tempi di produzione.
+
 
 
               </div>

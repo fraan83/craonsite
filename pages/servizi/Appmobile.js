@@ -58,16 +58,21 @@ const Servizi_Appmobile = () => {
             <div className={classes.text}>
                   Progettare, sviluppare e adattare gli strumenti a supporti multicanale è, oggi, necessità imprescindibile.
                   <br></br>
-                                <br></br>
-                                <strong>Craon</strong>, nell’ambito del mondo mobile, utilizza diversi strumenti di sviluppo con tecnologie Android e IOS ad alte prestazioni, per farti rimanere al passo con la rapida evoluzione dell’industria mobile, creando un’esperienza unica per il tuo pubblico.
+                  <br></br>
+                  <strong>Craon</strong>, nell’ambito del mondo mobile, utilizza diversi strumenti di sviluppo con tecnologie Android e IOS ad alte prestazioni, per farti rimanere al passo con la rapida evoluzione dell’industria mobile, creando un’esperienza unica per il tuo pubblico.
                   Negli ultimi anni l’azienda ha formato un team dedicato per rispondere alle esigenze di un mercato sempre più orientato al mobile.
                   <br></br>
-                                <br></br>
+            
                   Oltre le applicazioni native, i nostri esperti sono in grado di creare app cross-platform che offrono la stessa qualità di esperienza utente, ma lo sviluppo necessita di una sola base di codice per più piattaforme.
                   Con l'evoluzione dei dispositivi e delle piattaforme mobili, abbiamo acquisito una vasta esperienza nella costruzione di applicazioni ibride robuste, sicure e scalabili per iOS e Android: i nostri sviluppatori di app mobili
-                  ibride utilizzano tecnologie ponte come Ionic, Flatter, React Native e Xamarin, ottimizzando i costi associati allo sviluppo di due diverse versioni per Android e iOS.
+                  ibride utilizzano tecnologie ponte come <b>Ionic, Flutter, React Native e Xamarin </b>, ottimizzando i costi associati allo sviluppo di due diverse versioni per Android e iOS.
                   <br></br>
-                  L'approccio allo sviluppo di un'applicazione mobile è molto diverso rispetto al mondo del Web. Le caratteristiche peculiari dei device, i diversi sistemi operativi, le interfacce grafiche particolari, sono uno stimolo per le
+          
+
+
+              </div>
+              <div className={classes.textBottom}>
+              L'approccio allo sviluppo di un'applicazione mobile è molto diverso rispetto al mondo del Web. Le caratteristiche peculiari dei device, i diversi sistemi operativi, le interfacce grafiche particolari, sono uno stimolo per le
                   aziende ad affrontare sempre nuove sfide per soddisfare le aspettative di un settore in continua evoluzione.
                   <br></br>
                                 <br></br>
@@ -75,8 +80,6 @@ const Servizi_Appmobile = () => {
                   <br></br>
                                 <br></br>
                   Craon sviluppa applicazioni sia in ambito industriale sia in ambito applicazioni vetrina, per un’esperienza utente fluida e intuitiva. A seconda dei tuoi obiettivi di business siamo in grado di consigliarti la soluzione migliore per la realizzazione e gestione della tua App, e rimaniamo in costante comunicazione durante la creazione per garantire un risultato efficace. Infatti, il team dedicato è in grado di accompagnare i clienti lungo l’intero processo di progettazione, sviluppo e pubblicazione di applicazioni o di siti internet fruibili su dispositivi mobili
-
-
               </div>
           </div>
 

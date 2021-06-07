@@ -54,31 +54,36 @@ const Servizi_Database = () => {
               <Image src="/servizi/db_management.jpg" width={450} height={319} alt="DBA MANAGEMENT" layout="fixed" />
             </div>
             <div className={classes.text}>
-                          Il Team DBA di Craon è composto da analisti esperti in grado di fornire un servizio all'avanguardia per garantire database costantemente aggiornati e sempre funzionanti.
+              Il Team DBA di Craon è composto da analisti esperti in grado di fornire un servizio all'avanguardia per garantire database costantemente aggiornati e sempre funzionanti.
             <br></br>
-                          <br></br>
+              <br></br>
             I servizi di database che Craon eroga possono essere gestiti in soluzioni differenti per agevolare la scelta dei clienti in base alle rispettive esigenze e budget. L’azienda è in grado di proporre
             supporto e servizi database personalizzati attraverso un’analisi delle necessità che porta a selezionare la modalità di consulenza più adatta: dall’amministrazione dei database, alla gestione
             dello spazio disco e degli utenti, al troubleshooting, all’individuazione dei colli di bottiglia fino alla movimentazione dati, performance & tuning, sicurezza, storage, backup e disaster recovery.
             <br></br>
-                          <br></br>
+              <br></br>
             Craon ha maturato un’esperienza variegata sui servizi di infrastructure management, sviluppando competenze per fornire assistenza remota sulle problematiche ordinarie e sulla gestione delle
             emergenze per l’intera infrastruttura IT o per le sue singole componenti.
             <br></br>
-                          <br></br>
-            Inoltre, grazie ai nostri esperti, siamo preparati per aiutarvi a:
+              <br></br>
+
+
+            </div>
+
+            <div className={classes.textBottom}>
+
+              Inoltre, grazie ai nostri esperti, siamo preparati per aiutarvi a:
             <ul className={classes.clist}>
-                            <li> sviluppare database nativi in cloud;</li>
-                            <li> migrare su cloud i vostri database on-premise.</li>
-                          </ul>
+                <li> sviluppare database nativi in cloud;</li>
+                <li> migrare su cloud i vostri database on-premise.</li>
+              </ul>
             Gli ambienti cloud in cui operiamo sono i principali e i più performanti: Amazon AWS, Microsoft Azure o Google Cloud Platform.
             Il nostro personale può occuparsi di sviluppare la strategia cloud, la configurazione dell'infrastruttura, la riprogettazione dell'architettura, la migrazione e la manutenzione.
             <br></br>
-                          <br></br>
+              <br></br>
             I tecnici e gli esperti DBA del team Craon forniscono soluzioni concrete ai problemi reali della tua azienda.
 
-
-              </div>
+                </div>
           </div>
         </div>
         <ServiziSection />

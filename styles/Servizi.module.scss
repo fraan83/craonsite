@@ -21,22 +21,42 @@
   }
   
   .pageElements{
-    display:flex;
     width: 100%;  
     max-width: 72rem;
     padding-right:0.8rem;
-    justify-content: space-between; 
-   
-    flex-direction: row;
     top: 2rem;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   
   .defImage{
-    display:flex;
-   
-    flex-direction: row;
-    justify-content: center;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-flex: 0 1 40%;
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: center;
     padding-right:0.8rem;
+    padding-bottom:0.8rem;
     box-sizing: border-box;   
   
   }
@@ -46,7 +66,15 @@
   }
   
   .text{
-    flex: 1 1 65%;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
     padding-left: 0.8rem;
     box-sizing: border-box;
     color: #696259;
@@ -55,6 +83,23 @@
   
   }
   
+  .textBottom{
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+    -webkit-flex: 2 1 auto;
+    -ms-flex: 2 1 auto;
+    flex: 2 1 auto;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    padding-left: 0.8rem;
+    box-sizing: border-box;
+    color: #696259;
+    font-family: "Lato", sans-serif;
+    line-height: 1.6rem;
+  
+  }
   
   .titleContact{
     text-align: left;
@@ -238,7 +283,7 @@
     flex-direction: column;
     top: 2rem;
     margin-bottom: 2rem;
-    order:1;
+  
   
    }
 
@@ -248,9 +293,15 @@
      margin-bottom: 1rem;
      margin-top: 2rem;
      order:2;
+     align-self: center;
      
    }
-
+   .text{
+     order: 1;
+   }
+   .textBottom{
+    order: 2;
+  }
    .contentb2b {
     display: flex;
     flex-direction: column;
