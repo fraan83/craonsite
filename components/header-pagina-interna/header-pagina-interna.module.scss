@@ -13,7 +13,7 @@
 
   .headerTitle{
     position: absolute;
-    top: calc(2vh + 1vw);
+    top: calc(2px + 1vw);
     display: flex;
     height: auto;
     width: 100%;
@@ -24,7 +24,7 @@
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: #82c2e4;
-    font-size: calc(1.2vw + 1vh);
+    font-size: calc(2vw + 2vh);
     letter-spacing: 0.22rem;
   }
 

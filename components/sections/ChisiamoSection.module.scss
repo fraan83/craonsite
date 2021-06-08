@@ -33,12 +33,13 @@
     padding: 0rem;
 }
 .pageElements{
-  display:flex;
-  width: 100%;  
-  //max-width: 90vw;
-  //padding-right:0.8rem;
-  justify-content: space-between; 
-  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .chisiamoImage{
   display:flex;
@@ -65,7 +66,7 @@
   padding-left: 0.8rem;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  color: #696259;
+  color: #303030;
   font-family: "Lato", sans-serif;
   line-height: 1.8rem;
   font-size: 1.3rem;
@@ -125,7 +126,7 @@ button.rec-arrow {
 
 @media screen and (max-width: 1370px) {
   .chisiamoImage img{
-    height: 64vh;
+    //height: 64vh;
     max-width: 100%;
     align-self: flex-start;
     border-radius: 6px;
@@ -138,14 +139,14 @@ button.rec-arrow {
     box-sizing: border-box;
     color: #696259;
     font-family: "Lato", sans-serif;
-    line-height: 1.6rem;
-    font-size: 1rem;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
     font-weight: 300;
   }
 }
 @media screen and (max-width: 1290px) {
   .chisiamoImage img{
-    height: 54vh;
+   // height: 54vh;
     max-width: 100%;
     align-self: flex-start;
     border-radius: 6px;
@@ -158,14 +159,14 @@ button.rec-arrow {
     box-sizing: border-box;
     color: #696259;
     font-family: "Lato", sans-serif;
-    line-height: 1.6rem;
+    line-height: 1.55rem;
     font-size: 1rem;
     font-weight: 300;
   }
 }
 @media screen and (max-width: 1024px){
   .chisiamoImage img {
-      height: auto;
+     //height: auto;
       max-width: 100%;
       align-self: flex-start;
       border-radius: 6px;
@@ -174,13 +175,23 @@ button.rec-arrow {
   }
 }
  
-@media screen and (max-width: 769px) and (orientation: portrait){
+@media screen and (max-width: 800px) and (orientation: portrait){
 
   .chisiamoImage{  
-    padding-right:0rem;
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+    padding-right: 0rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-height: 100vh;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
   }
+
  .chisiamoImage img {
-    height: 100%;
+ 
     max-width: 100%;
     align-self: flex-start;
     border-radius: 6px;
@@ -209,17 +220,12 @@ button.rec-arrow {
       padding: 0rem 0.5rem;
       box-sizing: border-box;
   }
-
-   
-    .chisiamoImage{
-      max-height: 100vh;
-      max-width: 100vw;
-    }
     
     .text{
       margin-top: 1rem;
-      font-size: 1rem;
-      line-height: 1.30rem;
+      font-size: large;
+      line-height: 1.55em;
+      font-weight: 300;
     }
 
     .bottomInfo .content{

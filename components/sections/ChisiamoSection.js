@@ -15,9 +15,13 @@ const ChisiamoSection = () => {
   //console.log('larghezza', width);
   var contenutiDaMostrare = 4;
   var paginazione = false;
+  var widthImage = 600;
+  var heightImage = 600;
   if(width <= 800){
     contenutiDaMostrare = 1
     paginazione = true;
+    widthImage = 400;
+    heightImage = 400;
   }
 
   const handler = () => {
@@ -31,7 +35,7 @@ const ChisiamoSection = () => {
         <Title text="Chi Siamo" />
         <div className={classes.pageElements}>
           <div className={classes.chisiamoImage}>
-            <img src="/chi-siamo-s.jpg" alt="image" />
+            <Image src="/chi-siamo-s.jpg" height={heightImage} width={widthImage} alt="Chi siamo Immmagine Craon" layout="fixed"/>
           </div>
           <div className={classes.text}>
             <strong>CRAON</strong> è un'azienda giovane, dinamica e positiva, che opera in ambito IT attraverso l'utilizzo di tecnologie innovative, soluzioni digital e metodologie di programmazione all'avanguardia.
