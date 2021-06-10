@@ -51,7 +51,7 @@ const Servizi_Enterprise = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/erp.jpg" width={450} height={319} alt="ERP" layout="fixed"/>
+              <Image src="/servizi/erp.jpg" width={380} height={319} alt="ERP" layout="fixed"/>
             </div>
             <div className={classes.text}>
             Siamo in grado di realizzare sistemi ERP personalizzati per creare soluzioni scalabili, per automatizzare i processi critici e fornire informazioni sui dati chiave, dando accesso in tempo reale ai dati mission critical.

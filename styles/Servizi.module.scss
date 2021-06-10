@@ -88,12 +88,10 @@
     -webkit-order: 3;
     -ms-flex-order: 3;
     order: 3;
-    -webkit-flex: 2 1 auto;
-    -ms-flex: 2 1 auto;
-    flex: 2 1 auto;
-    -webkit-align-self: flex-end;
+ 
+ 
     -ms-flex-item-align: end;
-    align-self: flex-end;
+    align-self: flex-start;
     padding-left: 0.8rem;
     box-sizing: border-box;
     color: #696259;

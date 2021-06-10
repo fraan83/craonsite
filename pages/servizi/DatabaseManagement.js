@@ -51,7 +51,7 @@ const Servizi_Database = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/db_management.jpg" width={450} height={319} alt="DBA MANAGEMENT" layout="fixed" />
+              <Image src="/servizi/db_management.jpg" width={380}  height={319} alt="DBA MANAGEMENT" layout="fixed" />
             </div>
             <div className={classes.text}>
               Il Team DBA di Craon è composto da analisti esperti in grado di fornire un servizio all'avanguardia per garantire database costantemente aggiornati e sempre funzionanti.

@@ -53,7 +53,7 @@ const Servizi_Appmobile = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/app_mobile.jpg" width={450} height={319} layout="fixed" alt="app mobile"   />
+              <Image src="/servizi/app_mobile.jpg" width={380} height={319} layout="fixed" alt="app mobile"   />
             </div>
             <div className={classes.text}>
                   Progettare, sviluppare e adattare gli strumenti a supporti multicanale è, oggi, necessità imprescindibile.
