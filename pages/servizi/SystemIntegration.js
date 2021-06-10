@@ -52,19 +52,30 @@ const Servizi_SystemIntegration = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/system_integration_mc.png" width={450} height={319} alt="image" />
+              <Image src="/servizi/system_integration_mc.png" width={450} height={319} alt="System Integration Microsofot Certifidied" />
             </div>
             <div className={classes.text}>
-              <strong>Curabitur arcu erat</strong>, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Vestibulum</strong> ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.<br /><br /> <strong>Nulla porttitor accumsan tincidunt</strong>. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero malesuada feugiat. Donec rutrum congue leo eget malesuada. Cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque.Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh.
-              </div>
 
-                         
-              <div className={classes.textBottom}>
-              <strong>Nulla porttitor accumsan tincidunt</strong>. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero malesuada feugiat. Donec rutrum congue leo eget malesuada. Cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque.Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Sed porttitor lectus nibh.
-              </div>
+              Come  <strong> System Integration </strong> Craon si propone di disegnare,ingegnerizzare e manutenere i sistemi informativi utilizzando sistemi di virtualizzazione (Vmware,Hyper-v),utilizzando tutti i sistemi operativi,garantendo la gestione del networking e delle soluzioni Cloud (AWS,Microsoft365)mantenendo interoperabilità tra i sistemi del cliente.
+              <br></br>
+              <br></br>
+
+              La nostra mission volge a:
+              <br></br>
+              <ul className={classes.clist}>
+                <li>
+                  <strong> riduzione dei costi: </strong>Craon si propone di adeguare il giusto dimensionamento di una architettura informatica e la geolocalizzazione della stessa con un reale beneficio a livello di costi </li>
+
+                <li> <strong> adeguatezza dei sistemi: </strong> Craon si adopera affinchè si fornisca al cliente un'infrastruttura su misura,tarata su analisi effettuata dai nostri professionisti,partendo dal livello più basso come l'hardware arrivando alle integrazioni fra i diversi sistemi aziendali </li>
+
+
+                <li> <strong> integrazione e innovazione: </strong> Craon è sempre aggiornata sulle nuove tecnologie e si propone di restare al passo fornendo ai propri clienti soluzioni all'avanguardia in grado di soddisfare le necessità sempre più crescenti di performance ottimizzando i costi aziendali </li>
+
+              </ul>
+            </div>
+
+
+
           </div>
 
           <div className={classes.content}>
@@ -76,29 +87,29 @@ const Servizi_SystemIntegration = () => {
                 <h2> Prodotto E-commerce 1 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                </p>
               </div>
               <div className={classes.columnb2b}>
                 <h2> Prodotto E-commerce 2 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                </p>
               </div>
               <div className={classes.columnb2b}>
                 <h2> Prodotto E-commerce 3 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                </p>
               </div>
               <div className={classes.columnb2b}>
                 <h2> Prodotto E-commerce 4 </h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                </p>
               </div>
             </div>
             <div className={classes.bottomB2b}>
-              <B2Button onClick={goToB2B}/>
+              <B2Button onClick={goToB2B} />
             </div>
 
 
