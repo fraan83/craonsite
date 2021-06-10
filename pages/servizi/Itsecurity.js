@@ -51,7 +51,7 @@ const Servizi_ITSecurity = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/it_security.jpg" width={380}  height={319} alt="It Securuty" layout="fixed" />
+              <Image src="/servizi/it_security.jpg" width={360} height={290} alt="It Securuty" layout="fixed" />
             </div>
             <div className={classes.text}>
               La connessione costante comporta nuovi rischi per la sicurezza dei dati. <strong>Craon offre servizi a 360 gradi per la sicurezza informatica</strong>.

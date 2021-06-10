@@ -50,11 +50,11 @@
     -ms-flex-order: 1;
     order: 1;
     -webkit-flex: 0 1 40%;
-    -ms-flex: 0 1 40%;
-    flex: 0 1 40%;
+    -ms-flex: -1 1 40%;
+    flex: -1 1 40%;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
-    align-self: center;
+    align-self: flex-start;
     padding-right:0.8rem;
     padding-bottom:0.8rem;
     box-sizing: border-box;   

@@ -52,7 +52,7 @@ const Servizi_SystemIntegration = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/system_integration_mc.png"  width={380}  height={319} alt="System Integration Microsofot Certifidied" />
+              <Image src="/servizi/system_integration_mc.png" width={360} height={290} alt="System Integration Microsofot Certifidied" />
             </div>
             <div className={classes.text}>
 

@@ -51,7 +51,7 @@ const Servizi_SviluppoSoftware = () => {
 
           <div className={classes.pageElements}>
             <div className={classes.defImage}>
-              <Image src="/servizi/sviluppo_software.jpg"  layout="fixed"  width={380}  height={319} alt="Sviluppo Software" />
+              <Image src="/servizi/sviluppo_software.jpg"  layout="fixed"  width={360} height={290} alt="Sviluppo Software" />
             </div>
             <div className={classes.text}>
               Grazie ad una combinazione tra   <strong>elevata capacità tecnica </strong>e profonde abilità di analisi dei processi aziendali, derivate da una pluriennale esperienza, l’azienda offre servizi di sviluppo software personalizzato in tecnologia .net core, java, node.js, angular, react, vue.
