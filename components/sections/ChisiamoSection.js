@@ -16,7 +16,7 @@ const ChisiamoSection = () => {
   var contenutiDaMostrare = 4;
   var paginazione = false;
   var widthImage = 500;
-  var heightImage = 500;
+  var heightImage = 450;
   if(width <= 800){
     contenutiDaMostrare = 1
     paginazione = true;
