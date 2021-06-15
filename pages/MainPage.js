@@ -49,7 +49,7 @@ const MainPage = () => {
                             <ClientiSection />
                         </section>
                         <section data-aos="fade-up" ref={refs.carriere} className={classes.section}>
-                            <CarriereSection />
+                            <CarriereSection attivo={activeElement} />
                         </section>
                         <section ref={refs.contatti} className={classes.section}>
                             <ContattiSection />

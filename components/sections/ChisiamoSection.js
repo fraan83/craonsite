@@ -15,8 +15,8 @@ const ChisiamoSection = () => {
   //console.log('larghezza', width);
   var contenutiDaMostrare = 4;
   var paginazione = false;
-  var widthImage = 600;
-  var heightImage = 600;
+  var widthImage = 500;
+  var heightImage = 500;
   if(width <= 800){
     contenutiDaMostrare = 1
     paginazione = true;

@@ -63,9 +63,7 @@ const ClientiSection = () => {
           <div className={classes.logoContainer}>
               <img src="/clienti/biolitec.png"  />
           </div>
-          <div className={classes.logoContainer}>
-              <img src="/clienti/cem-karcher.jpg"  />
-          </div>
+      
           <div className={classes.logoContainer}>
               <img src="/clienti/corvallis.jpg"  />
           </div>
@@ -91,8 +89,21 @@ const ClientiSection = () => {
               <img src="/clienti/logopartec.jpg"  />
           </div>
           <div className={classes.logoContainer}>
-              <img src="/clienti/numerix.jpg"  />
+              <img src="/clienti/atos-logo-menu-bar.png"  />
           </div>
+          <div className={classes.logoContainer}>
+              <img src="/clienti/Logo_AGS_x40_blu.png"  />
+          </div>
+          <div className={classes.logoContainer}>
+              <img src="/clienti/cropped-logo_aubay_RGB_with-halo.png"  />
+          </div>
+          <div className={classes.logoContainer}>
+              <img src="/clienti/Log_AXIANS_MG-250-pixel.jpg"  />
+          </div>
+          <div className={classes.logoContainer}>
+              <img src="/clienti/BeShapingFuture.png"  />
+          </div>
+     
 
           <div className={classes.logoContainer}>
               <img src="/clienti/present.jpg"  />
@@ -102,21 +113,15 @@ const ClientiSection = () => {
           </div>
 
           <div className={classes.logoContainer}>
-              <img src="/clienti/scuola_login.png"  />
-          </div>
-          <div className={classes.logoContainer}>
               <img src="/clienti/sec-servizi.jpg"  />
           </div>
 
           <div className={classes.logoContainer}>
               <img src="/clienti/taxfree.png"  />
           </div>
-          <div className={classes.logoContainer}>
-              <img src="/clienti/techsoup-logo.jpg"  />
-          </div>
-          <div className={classes.logoContainer}>
-              <img src="/clienti/tmb.png"  />
-          </div>
+     
+      
+      
           <div className={classes.logoContainer}>
               <img src="/clienti/visiant-contact.gif"  />
           </div>

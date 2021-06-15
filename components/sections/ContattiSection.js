@@ -12,8 +12,8 @@ import CommuteIcon from '@material-ui/icons/Commute';
 const ContattiSection = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = data => console.log(data);
-  console.log(errors);
-  console.log(errors.email);
+ // console.log(errors);
+ // console.log(errors.email);
 
   let msgerror = "Campo Obbligatorio";
   
@@ -26,11 +26,11 @@ const ContattiSection = () => {
             <div className={classes.title}>
                 CRAON SRL
               </div>
-              <p><strong>Sede legale: </strong> Via De Castillia, 7 – 20871 Vimercate (MB)</p>
+             
               <p><strong>Sede operativa: </strong> Via Bice Cremagnani, 16 – 20871 Vimercate (MB)</p>
               <p><strong>Partita Iva: </strong>02820820963</p>
               <p><strong>Tel: </strong>039.6612489</p>
-              <p><strong>Fax: </strong>039.6389007</p>
+           
               <p><strong>Email: </strong><a className={classes.mail} href="mailto:info@craon.it">info@craon.it</a></p>  
 
               <div className={classes.title}>
