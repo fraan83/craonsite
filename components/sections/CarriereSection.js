@@ -32,7 +32,7 @@ const CarriereSection = ({ attivo }) => {
       <div className={classes.bgcontainer}>
         <div className={classes.content}>
           <AlliboDati />
-        <div  dangerouslySetInnerHTML={{ __html: scriptAllibo }}></div>
+        {/* <div  dangerouslySetInnerHTML={{ __html: scriptAllibo }}></div> */}
         </div>
       </div>
     </div>

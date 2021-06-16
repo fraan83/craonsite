@@ -13,7 +13,7 @@ const CarrieraCard = ({children, title, location, data, showButton, buttonText, 
                 <h2 className={classes.title}>{title}</h2>
                 <p  className={classes.location}>{location}</p>
                 <p  className={classes.data}>{data}</p>
-                {showButton && <Button text={buttonText} onClick={onClick} />}                
+                {showButton && <Button text={buttonText} onClick={onClick} className={classes.button} />}                
             </div>        
         </div>
     );
@@ -22,7 +22,7 @@ const CarrieraCard = ({children, title, location, data, showButton, buttonText, 
 CarrieraCard.propTypes = {
     children: PropTypes.node,
     title: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
+    location: PropTypes.string,
     data: PropTypes.string.isRequired,
     showButton: PropTypes.bool,
     buttonText: PropTypes.string,
