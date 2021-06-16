@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import CarrieraCard from '../components/card-carriera/Card';
 import Carousel, { consts } from "react-elastic-carousel";
+import useWindowSize from 'components/hooks/windowDimension';
+
 const AlliboDati = () => {
 
     const [intro, setIntro] =  useState('')
@@ -46,10 +48,27 @@ const AlliboDati = () => {
 
     }
 
+
+    const { height, width } = useWindowSize();
+    //console.log('larghezza', width);
+    var contenutiDaMostrare = 4;
+    var arrows = false;
+    var widthImage = 400;
+    var heightImage = 400;
+    var paginazione = true
+    if(width <= 800){
+      contenutiDaMostrare = 1
+      arrows = true;
+      widthImage = 400;
+      heightImage = 400;
+      paginazione = false;
+    }
+  
+
     return (
         <>
-        <h5 style={{textAlign: 'center', color: '#696259', fontWeight: '400', margin: '50px'}}>{intro}</h5>
-            <Carousel itemsToShow={4} enableAutoPlay autoPlaySpeed={3750}>
+        <p style={{textAlign: 'center', color: '#696259', fontWeight: '400', margin: '10px'}}>{intro}</p>
+            <Carousel showArrows={arrows} pagination={paginazione} itemsToShow={contenutiDaMostrare} enableAutoPlay autoPlaySpeed={3750}>
                 {
                     jobs && jobs.map((j) => {
                         return (

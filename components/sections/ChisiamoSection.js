@@ -21,7 +21,7 @@ const ChisiamoSection = () => {
     contenutiDaMostrare = 1
     paginazione = true;
     widthImage = 400;
-    heightImage = 400;
+    heightImage = 350;
   }
 
   const handler = () => {
