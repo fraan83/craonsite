@@ -4,7 +4,7 @@ import CarrieraCard from '../components/card-carriera/Card';
 import Carousel, { consts } from "react-elastic-carousel";
 const AlliboDati = () => {
 
-
+    const [intro, setIntro] =  useState('')
     const [jobs, setJobs] = useState([{
         StyleClass:'', // 
         Job: '',
@@ -30,8 +30,8 @@ const AlliboDati = () => {
                 // console.log(res.data.Content.WidgetData.AdsList);
                 let listaLavori = res.data.Content.WidgetData.AdsList
                 setJobs(listaLavori)
-
-
+                let introduzione = res.data.Content.WidgetData.Intro
+                setIntro(introduzione);
             })
             .catch(err => {
                 console.log(err);
@@ -48,6 +48,7 @@ const AlliboDati = () => {
 
     return (
         <>
+        <h5 style={{textAlign: 'center', color: '#696259', fontWeight: '400', margin: '50px'}}>{intro}</h5>
             <Carousel itemsToShow={4} enableAutoPlay autoPlaySpeed={3750}>
                 {
                     jobs && jobs.map((j) => {
