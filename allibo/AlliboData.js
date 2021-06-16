@@ -3,6 +3,8 @@ import axios from 'axios';
 import CarrieraCard from '../components/card-carriera/Card';
 import Carousel, { consts } from "react-elastic-carousel";
 import useWindowSize from 'components/hooks/windowDimension';
+import Link from 'next/link';
+
 
 const AlliboDati = () => {
 
@@ -76,6 +78,7 @@ const AlliboDati = () => {
                             <CarrieraCard
                                 key={j.DetailLink}
                                 title={j.Title}
+                                titleLink={j.DetailLink}
                                 data={j.Job}
                                 location={j.ListPlaces[0].CountryName + ' / ' + j.ListPlaces[0].ProvinceName}
                                 showButton={true}

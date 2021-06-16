@@ -5,12 +5,12 @@ import PropTypes from "prop-types";
 import Button from "components/buttons/Button";
 
 
-const CarrieraCard = ({children, title, location, data, showButton, buttonText, onClick}) => {
+const CarrieraCard = ({children, title, titleLink, location, data, showButton, buttonText, onClick}) => {
     return(
         <div   className={classes.container}>
            {children}
             <div  className={classes.content}> 
-                <h2 className={classes.title}>{title}</h2>
+                <a href={titleLink} target="_blank"> <h2 className={classes.title}>{title}</h2></a>
                 <p  className={classes.location}>{location}</p>
                 <p  className={classes.data}>{data}</p>
                 {showButton && <Button text={buttonText} onClick={onClick} className={classes.button} />}                
@@ -22,6 +22,7 @@ const CarrieraCard = ({children, title, location, data, showButton, buttonText, 
 CarrieraCard.propTypes = {
     children: PropTypes.node,
     title: PropTypes.string.isRequired,
+    titleLink: PropTypes.string,
     location: PropTypes.string,
     data: PropTypes.string.isRequired,
     showButton: PropTypes.bool,

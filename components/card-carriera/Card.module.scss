@@ -15,7 +15,9 @@
 }
 
 // .container:hover{  opacity: 0.9; }
-
+.content > a{
+    text-decoration: none;
+}
 .content{
     display: flex;
     flex-direction: column;

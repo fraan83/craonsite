@@ -26,7 +26,7 @@ const ContattiSection = () => {
             <div className={classes.title}>
                 CRAON SRL
               </div>
-             
+        
               <p><strong>Sede operativa: </strong> Via Bice Cremagnani, 16 – 20871 Vimercate (MB)</p>
               <p><strong>Partita Iva: </strong>02820820963</p>
               <p><strong>Tel: </strong>039.6612489</p>
