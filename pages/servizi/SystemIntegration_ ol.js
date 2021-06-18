@@ -78,14 +78,38 @@ const Servizi_SystemIntegration = () => {
 
           </div>
 
-    
           <div className={classes.content}>
             <div className={classes.headrb2b}>
               <h1>Un sito e-commerce efficiente che si adatta perfettamente alla vendita B2B</h1>
             </div>
+            <div className={classes.contentb2b}>
+              <div className={classes.columnb2b}>
+                <h2> Prodotto E-commerce 1 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <div className={classes.columnb2b}>
+                <h2> Prodotto E-commerce 2 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <div className={classes.columnb2b}>
+                <h2> Prodotto E-commerce 3 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <div className={classes.columnb2b}>
+                <h2> Prodotto E-commerce 4 </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
             <div className={classes.bottomB2b}>
-              <figure><Image src="/b2b_cart_logo.png" width={180} height={80} alt="B2B E-commerce Business To Business Lead Management " ></Image></figure>
-              <B2Button text="PRESTO ONLINE" className={classes.buttonDisabled}   />
+              <B2Button onClick={goToB2B} />
             </div>
 
 

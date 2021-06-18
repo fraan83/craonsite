@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
+import classes from "../../styles/Servizi.module.scss";
 
 const B2Button = ({text, onClick, ...params}) => { 
     if(onClick)
-        return( <button  onClick={()=> onClick()}  className="button" {...params}>{text}</button>);
+        return( <button  onClick={()=> onClick()}  className={classes.button} {...params}>{text}</button>);
     else 
-        return( <button  className="button" {...params}>{text}</button>);
+        return( <button  className={classes.button}  {...params}>{text}</button>);
 }
 
 B2Button.propTypes = {

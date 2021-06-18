@@ -138,6 +138,44 @@
   }
 
 
+
+  .button, .smallButton {
+    background: #2296d4;
+    color: #fff;
+    border: 1px solid #2296d4;
+    padding: 0.7rem 1rem;
+    align-self: flex-start;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+    font-weight: 700;
+    font-size: 0.92rem;
+    letter-spacing: 0.14rem;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    user-select: none;
+  }
+  .button {
+    padding: 1rem;
+  
+  }
+
+.buttonDisabled{
+  background: #acacac;
+  color: rgb(146, 146, 146);
+  border: 1px solid #929292;
+  padding: 0.7rem 1rem;
+  align-self: flex-start;
+  margin: 0 auto;
+  cursor: default!important;
+  outline: none;
+  font-weight: 700;
+  font-size: 0.92rem;
+  letter-spacing: 0.14rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  user-select: none;
+}
   /* B2B SYSTEM INTEGRATION PAGE */
 
 

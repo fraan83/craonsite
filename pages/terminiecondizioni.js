@@ -71,7 +71,9 @@ const TerminiECondizioni = () => {
             <h3>Dati personali raccolti per le seguenti finalità ed utilizzando i seguenti servizi:</h3>
           </div>
 
-          
+        
+
+
           <div className={classes.containerPolicy}>
             <div className={classes.itemPolicy}>
               <h3> <EmailIcon /> Contattare l'Utente</h3>
@@ -85,18 +87,18 @@ const TerminiECondizioni = () => {
               <p>
                 Dati Personali: varie tipologie di Dati secondo quanto specificato dalla privacy policy del servizio</p>
             </div>
-           
-      
+
+
           </div>
           <div className={classes.containerPolicy}>
-          <div className={classes.itemPolicy}>
+            <div className={classes.itemPolicy}>
               <h3> <InsertChartIcon /> Statistica</h3>
               <h5>
                 Google Analytics</h5>
               <p>
 
                 Dati Personali: Cookie; Dati di utilizzo
- 
+
               </p>
             </div>
 
@@ -109,7 +111,7 @@ const TerminiECondizioni = () => {
 
                 Indirizzo email del Titolare: info@craon.it</p>
             </div>
-            
+
           </div>
         </div>
 
