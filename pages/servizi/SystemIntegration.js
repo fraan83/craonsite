@@ -56,7 +56,7 @@ const Servizi_SystemIntegration = () => {
             </div>
             <div className={classes.text}>
 
-              Come  <strong> System Integration </strong> Craon si propone di disegnare,ingegnerizzare e manutenere i sistemi informativi utilizzando sistemi di virtualizzazione (Vmware,Hyper-v),utilizzando tutti i sistemi operativi,garantendo la gestione del networking e delle soluzioni Cloud (AWS,Microsoft365)mantenendo interoperabilità tra i sistemi del cliente.
+              Come  <strong> System Integration </strong> Craon si propone di disegnare,ingegnerizzare e manutenere i sistemi informativi utilizzando sistemi di virtualizzazione (Vmware, Hyper-v), utilizzando tutti i sistemi operativi, garantendo la gestione del networking e delle soluzioni Cloud (AWS, Microsoft365) mantenendo interoperabilità tra i sistemi del cliente.
               <br></br>
               <br></br>
 
@@ -88,6 +88,14 @@ const Servizi_SystemIntegration = () => {
               <B2Button text="PRESTO ONLINE" className={classes.buttonDisabled}   />
             </div>
 
+
+          <h1 style={{ display: 'none' }} >
+          riduzione dei costi:
+          Craon si propone di adeguare il giusto dimensionamento di una architettura informatica e la geolocalizzazione della stessa con un reale beneficio a livello di costi 
+          adeguatezza dei sistemi: 
+          Craon si adopera affinchè si fornisca al cliente un'infrastruttura su misura,tarata su analisi effettuata dai nostri professionisti,partendo dal livello più basso come l'hardware arrivando alle integrazioni fra i diversi sistemi aziendali
+          Craon è sempre aggiornata sulle nuove tecnologie e si propone di restare al passo fornendo ai propri clienti soluzioni all'avanguardia in grado di soddisfare le necessità sempre più crescenti di performance ottimizzando i costi aziendali 
+          </h1>
 
           </div>
         </div>

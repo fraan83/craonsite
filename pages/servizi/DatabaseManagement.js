@@ -82,7 +82,11 @@ const Servizi_Database = () => {
             <br></br>
               <br></br>
             I tecnici e gli esperti DBA del team Craon forniscono soluzioni concrete ai problemi reali della tua azienda.
+<br></br>
 
+<h1 style={{ display: 'none' }}>  Craon si occupa di database management ovvero di ideare e realizzare database relazionali per l’archiviazione dei dati su piattaforme SQL Microsoft, Mysql ed Oracle.
+Nel 2005 Craon ha ottenuto un riconoscimento dal National Cancer Institute per il servizio di alta professionalità reso in qualità di Database Designer and Manager nello studio internazionale sulle cause del tumore ai polmoni.
+<img src="/craon-azienda-informatica-sviluppo-software-db-management-riconoscimento-1.jpg" /></h1>
                 </div>
           </div>
         </div>
